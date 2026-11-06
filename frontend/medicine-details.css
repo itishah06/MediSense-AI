@@ -1,0 +1,490 @@
+
+:root {
+    --primary: #123f49;
+    --secondary: #16bba9;
+    --mint: #ddf5f0;
+    --light-bg: #f3f9f7;
+    --white: #ffffff;
+    --text: #244b55;
+    --muted: #8192a5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--light-bg);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation */
+.site-header {
+    width: 100%;
+    background: var(--mint);
+}
+
+.navbar {
+    min-height: 82px;
+    padding: 0 4.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.back-link {
+    color: var(--primary);
+    font-size: 38px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--primary);
+    white-space: nowrap;
+}
+
+.logo-icon {
+    color: var(--secondary);
+    font-size: 38px;
+}
+
+.navbar .logo strong {
+    display: block;
+    font-size: 19px;
+}
+
+.navbar .logo small {
+    display: block;
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--secondary);
+}
+
+.navbar .nav-button {
+    background: var(--primary);
+    color: var(--white);
+    padding: 13px 22px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    padding: 25px 4.2%;
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.breadcrumb a {
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+/* Medicine Header Card */
+.medicine-detail-hero {
+    margin: 0 4.2% 25px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: 0 6px 22px rgba(18, 63, 73, 0.07);
+}
+
+.medicine-detail-icon {
+    width: 62px;
+    height: 62px;
+    min-width: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: var(--mint);
+    border-radius: 50%;
+    font-size: 29px;
+}
+
+.medicine-detail-heading {
+    flex: 1;
+    min-width: 0;
+}
+
+.eyebrow {
+    display: block;
+    color: var(--secondary);
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.medicine-title-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-bottom: 8px;
+}
+
+.medicine-detail-hero h1 {
+    color: var(--primary);
+    font-size: 31px;
+}
+
+.medicine-detail-hero .medicine-category {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 13px;
+    background: var(--mint);
+    color: var(--primary);
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.medicine-detail-hero p {
+    max-width: 850px;
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Six Information Cards */
+.medicine-detail-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4.2% 35px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.detail-card {
+    min-height: 165px;
+    padding: 25px;
+    background: var(--white);
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(18, 63, 73, 0.07);
+}
+
+.detail-card h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--primary);
+    font-size: 17px;
+    margin-bottom: 14px;
+}
+
+.detail-icon {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--mint);
+    color: var(--secondary);
+    border-radius: 50%;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.detail-card p,
+.detail-card li {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.detail-card ul {
+    padding-left: 20px;
+}
+
+.detail-card li {
+    margin-bottom: 7px;
+}
+
+.detail-warning {
+    margin-top: 12px;
+    color: var(--primary) !important;
+    font-size: 11px !important;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/* Source Link */
+.medicine-source {
+    margin-top: 12px;
+    font-size: 11px;
+}
+
+.medicine-source a {
+    color: var(--secondary);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Disclaimer */
+
+/* Important Medicine Information Banner */
+.medicine-important-notice {
+    margin: 0 0 15px;
+    padding: 20px 4.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: var(--mint);
+    border-radius: 14px;
+}
+
+.medicine-important-notice > span {
+    color: var(--secondary);
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.medicine-important-notice h3 {
+    color: var(--primary);
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.medicine-important-notice p {
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+/* Educational Disclaimer */
+.medicine-disclaimer {
+    margin: 0 4.2% 25px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: transparent;
+}
+
+.medicine-disclaimer > span {
+    color: var(--secondary);
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.medicine-disclaimer p {
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+
+/* Back Link */
+.back-to-medicines {
+    padding: 15px 4.2% 35px;
+    text-align: center;
+}
+
+.back-to-medicines a {
+    color: var(--secondary);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* Footer */
+.site-footer {
+    background: var(--primary);
+    color: var(--white);
+    padding: 28px 4.2% 20px;
+}
+
+.footer-brand h3 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.footer-brand p {
+    color: var(--secondary);
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #c4d9dc;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+/* Tablet Responsive */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 15px 4.2%;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+        order: 3;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .navbar .nav-button {
+        padding: 10px 14px;
+        font-size: 10px;
+    }
+
+    .breadcrumb {
+        padding: 20px 5%;
+    }
+
+    .medicine-detail-hero {
+        margin: 0 5% 20px;
+        padding: 22px;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .medicine-detail-icon {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        font-size: 23px;
+    }
+
+    .medicine-detail-hero h1 {
+        font-size: 25px;
+    }
+
+    .medicine-title-row {
+        gap: 10px;
+    }
+
+    .medicine-detail-hero p {
+        font-size: 12px;
+    }
+
+    .medicine-detail-content {
+        grid-template-columns: 1fr;
+        padding: 0 5% 30px;
+        gap: 15px;
+    }
+
+    .detail-card {
+        min-height: auto;
+        padding: 21px;
+    }
+
+    .medicine-disclaimer {
+        padding: 17px 5%;
+    }
+    .medicine-important-notice {
+    padding: 18px 5%;
+    align-items: flex-start;
+}
+
+.medicine-disclaimer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+
+/* Small Mobile */
+@media (max-width: 420px) {
+    .navbar .logo strong {
+        font-size: 15px;
+    }
+
+    .navbar .logo small {
+        font-size: 9px;
+    }
+
+    .back-link,
+    .logo-icon {
+        font-size: 30px;
+    }
+
+    .medicine-detail-hero {
+        padding: 18px;
+    }
+
+    .medicine-detail-hero h1 {
+        font-size: 22px;
+    }
+
+    .medicine-detail-hero .medicine-category {
+        font-size: 9px;
+        padding: 6px 9px;
+    }
+
+    .detail-card h2 {
+        font-size: 15px;
+    }
+}
+[hidden] {
+    display: none !important;
+}

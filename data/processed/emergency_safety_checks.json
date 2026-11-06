@@ -1,0 +1,40 @@
+
+{
+  "emergency_safety_checks": [
+    {
+      "evidence_id": "E_45",
+      "question": "Have you been coughing up blood?",
+      "data_type": "B"
+    },
+    {
+      "evidence_id": "E_63",
+      "question": "Do you have difficulty articulating words/speaking?",
+      "data_type": "B"
+    },
+    {
+      "evidence_id": "E_75",
+      "question": "Do you feel like you are (or were) choking or suffocating?",
+      "data_type": "B"
+    },
+    {
+      "evidence_id": "E_156",
+      "question": "Have you had weakness or paralysis on one side of the face, which may still be present or completely resolved?",
+      "data_type": "B"
+    },
+    {
+      "evidence_id": "E_159",
+      "question": "Did you lose consciousness?",
+      "data_type": "B"
+    },
+    {
+      "evidence_id": "E_176",
+      "question": "Did you previously, or do you currently, have any weakness/paralysis in one or more of your limbs or in your face?",
+      "data_type": "B"
+    },
+    {
+      "evidence_id": "E_210",
+      "question": "Have you recently thrown up blood or something resembling coffee beans?",
+      "data_type": "B"
+    }
+  ]
+}

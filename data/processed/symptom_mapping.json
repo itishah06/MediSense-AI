@@ -1,0 +1,38 @@
+
+{
+  "primary_symptoms": [
+    {"display_name": "Fever", "evidence_id": "E_91", "data_type": "B", "category": "General"},
+    {"display_name": "Cough", "evidence_id": "E_201", "data_type": "B", "category": "Respiratory"},
+    {"display_name": "Sore throat", "evidence_id": "E_97", "data_type": "B", "category": "Respiratory"},
+    {"display_name": "Chills", "evidence_id": "E_94", "data_type": "B", "category": "General"},
+    {"display_name": "Nasal congestion or runny nose", "evidence_id": "E_181", "data_type": "B", "category": "Respiratory"},
+    {"display_name": "Loss of smell", "evidence_id": "E_103", "data_type": "B", "category": "ENT"},
+    {"display_name": "Shortness of breath", "evidence_id": "E_66", "data_type": "B", "category": "Respiratory"},
+    {"display_name": "Wheezing while breathing out", "evidence_id": "E_214", "data_type": "B", "category": "Respiratory"},
+    {"display_name": "Muscle pain", "evidence_id": "E_144", "data_type": "B", "category": "Pain"},
+    {"display_name": "Nausea", "evidence_id": "E_148", "data_type": "B", "category": "Digestive"},
+    {"display_name": "Diarrhea", "evidence_id": "E_51", "data_type": "B", "category": "Digestive"},
+    {"display_name": "Dizziness", "evidence_id": "E_76", "data_type": "B", "category": "General"},
+    {"display_name": "Abdominal bloating", "evidence_id": "E_30", "data_type": "B", "category": "Digestive"},
+    {"display_name": "Loss of appetite", "evidence_id": "E_32", "data_type": "B", "category": "Digestive"},
+    {"display_name": "Swelling", "evidence_id": "E_151", "data_type": "B", "category": "General"},
+    {"display_name": "Skin lesions or rash", "evidence_id": "E_129", "data_type": "B", "category": "Skin"},
+    {"display_name": "Persistent fatigue or non-restful sleep", "evidence_id": "E_89", "data_type": "B", "category": "General"},
+    {"display_name": "Severe fatigue affecting daily activities", "evidence_id": "E_88", "data_type": "B", "category": "General"}
+  ],
+  "additional_unmapped_symptoms": [
+    {
+      "display_name": "Headache",
+      "status": "Not yet mapped",
+      "send_to_model": false
+    }
+  ],
+  "follow_up_evidence": [
+    {"display_name": "Pain intensity", "evidence_id": "E_56", "data_type": "C", "triggered_by": "E_144"},
+    {"display_name": "Pain location", "evidence_id": "E_55", "data_type": "M", "triggered_by": "E_144"},
+    {"display_name": "Pain radiation", "evidence_id": "E_57", "data_type": "M", "triggered_by": "E_144"},
+    {"display_name": "Rash colour", "evidence_id": "E_130", "data_type": "C", "triggered_by": "E_129"},
+    {"display_name": "Itching severity", "evidence_id": "E_136", "data_type": "C", "triggered_by": "E_129"},
+    {"display_name": "Swelling location", "evidence_id": "E_152", "data_type": "M", "triggered_by": "E_151"}
+  ]
+}

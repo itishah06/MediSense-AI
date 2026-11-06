@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Symptom Checker | MediSense AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                MediSense AI
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                <li><a href="#">Medicine Guide</a></li>
+                <li><a href="#">Home Remedies</a></li>
+                <li><a href="#">Find Doctors</a></li>
+            </ul>
+
+            <button class="nav-button"
+                onclick="location.href='symptom-checker.html'">
+                Check Symptoms →
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page Heading -->
+        <section class="symptom-heading">
+            <span>YOUR HEALTH JOURNEY STARTS HERE</span>
+
+            <h1>Let's Understand Your Symptoms</h1>
+
+            <p>
+                Tell us how you're feeling. Our AI will help you understand
+                possible health conditions and guide you towards the next steps.
+            </p>
+        </section>
+
+        <!-- Symptom Checker Form -->
+        <section class="symptom-form-section">
+
+            <div class="symptom-form-card">
+
+                <h2>Tell Us About Yourself</h2>
+
+                <p class="form-description">
+                    A few basic details will help us provide more relevant guidance.
+                </p>
+
+                <!-- Personal Details -->
+                <div class="personal-details">
+
+                    <div class="form-group">
+                        <label for="age">Age</label>
+
+                        <input
+                            type="number"
+                            id="age"
+                            placeholder="Enter your age"
+                            min="0"
+                            max="120"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender (Optional)</label>
+
+                        <select id="gender">
+                            <option value="">Select an option</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Symptom Selection -->
+                <div class="symptom-selection">
+
+                    <h2>What Symptoms Are You Experiencing?</h2>
+
+                    <p class="form-description">
+                        Select all symptoms that apply to you.
+                    </p>
+
+                    <div class="symptom-search">
+                        <span>⌕</span>
+
+                        <input
+                            type="text"
+                            id="symptom-search"
+                            placeholder="Search or enter a symptom..."
+                        >
+                    </div>
+
+                    <h3>Common Symptoms</h3>
+
+                    <div class="common-symptoms" id="common-symptoms">
+                        <button type="button" class="symptom-chip">Fever</button>
+                        <button type="button" class="symptom-chip">Headache</button>
+                        <button type="button" class="symptom-chip">Cough</button>
+                        <button type="button" class="symptom-chip">Fatigue</button>
+                        <button type="button" class="symptom-chip">Sore Throat</button>
+                        <button type="button" class="symptom-chip">Nausea</button>
+                        <button type="button" class="symptom-chip">Body Pain</button>
+                        <button type="button" class="symptom-chip">Dizziness</button>
+                    </div>
+
+                    <h3>Selected Symptoms</h3>
+
+                    <div class="selected-symptoms" id="selected-symptoms">
+                        <p class="empty-selection">
+                            No symptoms selected yet.
+                        </p>
+                    </div>
+
+                    <!-- Dynamic Follow-up Questions -->
+                    <div class="follow-up-section"
+                         id="follow-up-section"
+                         hidden>
+
+                        <h3>Tell Us More About Your Symptoms</h3>
+
+                        <p class="form-description">
+                            Please answer a few additional questions to help us understand
+                            your symptoms better.
+                        </p>
+
+                        <div id="follow-up-questions"></div>
+
+                    </div>
+
+                </div>
+                <!-- End Symptom Selection -->
+
+
+                <!-- Emergency Safety Check -->
+                <div class="emergency-safety-section"
+                     id="emergency-safety-section"
+                     hidden>
+
+                    <h3>Important Safety Check</h3>
+
+                    <p class="form-description">
+                        Before analyzing your symptoms, please answer these safety questions.
+                    </p>
+
+                    <div id="emergency-safety-questions"></div>
+
+                    <!-- Emergency Warning -->
+                    <div id="emergency-warning"
+                         role="alert"
+                         aria-live="assertive"
+                         hidden>
+
+                        <h3>Seek Immediate Medical Attention</h3>
+
+                        <p>
+                            One or more of your answers may indicate a potentially serious
+                            condition. Please seek urgent medical attention instead of
+                            relying on this symptom checker. If you are in India, call 112
+                            for an emergency.
+                        </p>
+
+                    </div>
+
+                </div>
+                <!-- End Emergency Safety Check -->
+
+
+                <!-- Duration -->
+                <div class="duration-section">
+
+                    <h3>How Long Have You Been Experiencing These Symptoms?</h3>
+
+                    <div class="duration-options">
+
+                        <label>
+                            <input type="radio" name="duration" value="less_than_day">
+                            <span>Less than a day</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="duration" value="1_3_days">
+                            <span>1-3 days</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="duration" value="4_7_days">
+                            <span>4-7 days</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="duration" value="more_than_week">
+                            <span>More than a week</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Severity -->
+                <div class="severity-section">
+
+                    <h3>How Severe Are Your Symptoms?</h3>
+
+                    <div class="severity-options">
+
+                        <label class="severity-card mild">
+                            <input type="radio" name="severity" value="mild">
+                            <span>Mild</span>
+                            <small>Manageable</small>
+                        </label>
+
+                        <label class="severity-card moderate">
+                            <input type="radio" name="severity" value="moderate">
+                            <span>Moderate</span>
+                            <small>Noticeable</small>
+                        </label>
+
+                        <label class="severity-card severe">
+                            <input type="radio" name="severity" value="severe">
+                            <span>Severe</span>
+                            <small>Very uncomfortable</small>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Submit -->
+                <button type="button"
+                        class="analyze-button"
+                        id="analyze-button">
+
+                    Analyze Symptoms
+
+                    <small>
+                        Your information is used to provide AI-assisted health guidance.
+                    </small>
+
+                </button>
+
+                <!-- Prediction Result -->
+                <div id="prediction-result" aria-live="polite"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Disclaimer -->
+        <section class="symptom-disclaimer">
+
+            <span>ⓘ</span>
+
+            <p>
+                This tool provides AI-assisted information and does not replace
+                professional medical diagnosis or treatment. If you have severe
+                or emergency symptoms, seek immediate medical attention.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-brand">
+            <h3>♡ &nbsp; MediSense AI</h3>
+            <p>Your Smart Health Companion</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MediSense AI. All rights reserved.</p>
+            <p>Built with care for a healthier India.</p>
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="symptom-checker.js"></script>
+
+</body>
+</html>

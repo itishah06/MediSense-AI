@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Details | MediSense AI</title>
+    <link rel="stylesheet" href="medicine-details.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="medicine-guide.html" class="back-link">←</a>
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">♡</span>
+                <span>
+                    <strong>MediSense AI</strong>
+                    <small>Your Smart Health Companion</small>
+                </span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                <li><a href="medicine-guide.html" class="active">Medicine Guide</a></li>
+                <li><a href="home-remedies.html">Home Remedies</a></li>
+                <li><a href="find-doctors.html">Find Doctors</a></li>
+            </ul>
+
+            <a href="symptom-checker.html" class="nav-button">
+                Check Symptoms →
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="medicine-guide.html">Medicine Guide</a>
+            <span> / </span>
+            <span id="breadcrumb-medicine">Medicine Details</span>
+        </div>
+
+        <!-- Medicine Heading -->
+        
+<section class="medicine-detail-hero">
+    <div class="medicine-detail-icon">💊</div>
+
+    <div class="medicine-detail-heading">
+        <span class="eyebrow">MEDICINE INFORMATION</span>
+
+        <div class="medicine-title-row">
+            <h1 id="medicine-name">Loading medicine...</h1>
+            <span class="medicine-category" id="medicine-category">
+                Pain Relief · Analgesic
+            </span>
+        </div>
+
+        <p id="medicine-intro">
+            Educational information about this medicine.
+        </p>
+    </div>
+</section>
+
+
+        <!-- Medicine Information -->
+       
+<section class="medicine-detail-content">
+
+    <article class="detail-card">
+        <h2><span class="detail-icon">ⓘ</span> Medicine Overview</h2>
+        <p id="medicine-overview"></p>
+    </article>
+
+    <article class="detail-card">
+        <h2><span class="detail-icon">♧</span> Common Uses</h2>
+        <ul id="medicine-uses"></ul>
+    </article>
+
+    <article class="detail-card">
+        <h2><span class="detail-icon">♧</span> How It Works</h2>
+        <p id="medicine-how-it-works"></p>
+    </article>
+
+    <article class="detail-card">
+        <h2><span class="detail-icon">ⓘ</span> Possible Side Effects</h2>
+        <ul id="medicine-side-effects"></ul>
+        <p id="medicine-urgent-warning" class="detail-warning"></p>
+    </article>
+
+    <article class="detail-card">
+        <h2><span class="detail-icon">♧</span> Safety Precautions</h2>
+        <ul id="medicine-precautions"></ul>
+        <p id="medicine-overdose-warning" class="detail-warning"></p>
+    </article>
+
+    <article class="detail-card">
+        <h2><span class="detail-icon">♧</span> Professional Guidance</h2>
+        <p id="medicine-guidance"></p>
+        <p id="medicine-professional-warning" class="detail-warning"></p>
+    </article>
+
+</section>
+
+
+        <!-- Disclaimer -->
+      
+<section class="medicine-important-notice">
+    <span>ⓘ</span>
+    <div>
+        <h3>Important Medicine Information</h3>
+        <p>
+            Always review official product information and consult
+            a qualified healthcare professional for personalised advice.
+        </p>
+    </div>
+</section>
+
+<div class="medicine-disclaimer">
+    <span>ⓘ</span>
+    <p>
+        Medicine information is educational and does not replace
+        professional medical advice, diagnosis or treatment.
+    </p>
+</div>
+
+
+        <div class="back-to-medicines">
+            <a href="medicine-guide.html">← Back to Medicine Guide</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-brand">
+            <h3>♡ MediSense AI</h3>
+            <p>Your Smart Health Companion</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MediSense AI. All rights reserved.</p>
+            <p>Built with care for a healthier India.</p>
+        </div>
+    </footer>
+<script src="medicine-details.js"></script>
+</body>
+</html>

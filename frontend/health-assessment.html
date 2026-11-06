@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Health Assessment | MediSense AI</title>
+
+    <link rel="stylesheet" href="health-assessment.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="back-button">
+                <a href="symptom-checker.html">←</a>
+            </div>
+
+            <div class="logo">
+                <span class="logo-icon">♡</span>
+                <div>
+                    <h3>MediSense AI</h3>
+                    <small>Your Smart Health Companion</small>
+                </div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                <li><a href="#recommended-steps">Medicine Guide</a></li>
+                <li><a href="#recommended-steps">Home Remedies</a></li>
+                <li><a href="#recommended-steps">Find Doctors</a></li>
+            </ul>
+
+            <button class="nav-button"
+                onclick="location.href='symptom-checker.html'">
+                Check Symptoms →
+            </button>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Page Heading -->
+        <section class="assessment-heading">
+            <div class="breadcrumb">
+                <span>SYMPTOM CHECKER</span>
+                <span>•</span>
+                <span>Illustrative assessment</span>
+            </div>
+
+            <h1>Your Health Assessment</h1>
+
+            <p>
+                Here is an overview of your symptoms and AI-assisted insights.
+            </p>
+        </section>
+
+
+        <!-- Symptom Summary -->
+        <section class="symptom-summary">
+
+            <div class="summary-symptoms">
+                <h3>▤ &nbsp; Your symptom summary</h3>
+
+                <div class="symptom-tags" id="symptom-tags">
+                    <!-- Symptoms will be added dynamically -->
+                </div>
+            </div>
+
+            <div class="summary-detail">
+                <span>Symptom duration</span>
+                <h3 id="symptom-duration">Not provided</h3>
+            </div>
+
+            <div class="summary-detail">
+                <span>Self-reported severity</span>
+                <h3 id="symptom-severity">Not provided</h3>
+            </div>
+
+        </section>
+
+
+        <!-- Possible Health Conditions -->
+        <section class="conditions-section">
+
+            <div class="section-title">
+                <div>
+                   <h2>About Your Predicted Condition</h2>
+                   <p>
+    Learn about the predicted condition, its common symptoms
+    and general health guidance. This information is educational
+    and does not confirm a diagnosis.
+</p>
+                </div>
+
+                <span class="example-label">Educational information</span>
+            </div>
+
+<!-- Actual ML Prediction -->
+<div class="prediction-result-card">
+    <h3>Your AI Model Prediction</h3>
+
+    <p id="predicted-condition">
+        Prediction will appear here.
+    </p>
+
+    <small id="prediction-disclaimer"></small>
+</div>
+            <div class="conditions-container" id="conditions-container">
+
+    <div class="condition-card">
+        <h3>Loading condition information...</h3>
+        <p>Please wait while we retrieve educational information.</p>
+    </div>
+
+</div>
+
+
+        </section>
+
+
+        <!-- Health Disclaimer -->
+        <section class="health-information">
+
+            <div class="information-icon">ⓘ</div>
+
+            <div>
+                <h3>Information to guide you, not a diagnosis</h3>
+
+                <p>
+                    AI predictions are not confirmed diagnoses.
+                    Consult a qualified healthcare professional for
+                    assessment, diagnosis and treatment.
+                </p>
+
+                <p>
+                    Seek urgent medical care for severe or worsening
+                    symptoms. For trouble breathing, chest pain,
+                    confusion or a stiff neck with fever, seek emergency
+                    help now. A "Moderate" rating does not rule out
+                    an emergency.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- Recommended Next Steps -->
+        <section class="recommended-section" id="recommended-steps">
+
+            <div class="section-title">
+                <div>
+                    <h2>Recommended Next Steps</h2>
+                    <p>
+                        Explore reliable information and connect
+                        with the right care.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="recommendations-container">
+
+                <div class="recommendation-card">
+                    <div class="recommendation-icon">♧</div>
+
+                    <h3>Medicine Information</h3>
+
+                    <p>
+                        Understand medicine uses and precautions.
+                        Ask a doctor or pharmacist what is appropriate
+                        for you.
+                    </p>
+
+                   <a href="medicine-guide.html" id="medicine-info-link">
+    Explore information →
+</a>
+                </div>
+
+
+                <div class="recommendation-card">
+                    <div class="recommendation-icon">⌂</div>
+
+                    <h3>Home Care Guidance</h3>
+
+                    <p>
+                        Learn about rest, hydration and tracking
+                        symptoms while you arrange appropriate care.
+                    </p>
+
+                  <a href="home-remedies.html" id="home-care-link">
+    Read care guidance →
+</a>
+                </div>
+
+
+                <div class="recommendation-card">
+                    <div class="recommendation-icon">♡</div>
+
+                    <h3>Find Nearby Doctors</h3>
+
+                    <p>
+                        Connect with a qualified healthcare
+                        professional for a personal assessment
+                        and advice.
+                    </p>
+
+                    <a href="#" id="doctor-link">
+                        Explore nearby care →
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Bottom Actions -->
+        <section class="assessment-actions">
+
+            <p>
+                Your next step is a conversation with a
+                healthcare professional.
+            </p>
+
+            <div class="action-buttons">
+
+                <button class="secondary-button"
+                    onclick="location.href='symptom-checker.html'">
+                    Check Again
+                </button>
+
+                <button class="primary-button"
+                    id="find-doctor-button">
+                    Find a Doctor
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-brand">
+            <h3>♡ &nbsp; MediSense AI</h3>
+            <p>Your Smart Health Companion</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MediSense AI. All rights reserved.</p>
+            <p>Built with care for a healthier India.</p>
+        </div>
+
+    </footer>
+<script src="health-assessment.js"></script>
+</body>
+</html>

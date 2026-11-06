@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Information & Guidance | MediSense AI</title>
+    <link rel="stylesheet" href="medicine-guide.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="back-link">←</a>
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">♡</span>
+                <span>
+                    <strong>MediSense AI</strong>
+                    <small>Your Smart Health Companion</small>
+                </span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                <li><a href="medicine-guide.html" class="active">Medicine Guide</a></li>
+                <li><a href="home-remedies.html">Home Remedies</a></li>
+                <li><a href="find-doctors.html">Find Doctors</a></li>
+            </ul>
+
+            <a href="symptom-checker.html" class="nav-button">
+                Check Symptoms →
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Heading -->
+        <section class="medicine-hero">
+            <span class="eyebrow">MEDICINE INFORMATION</span>
+            <h1>Medicine Information & Guidance</h1>
+            <p>
+                Explore medicine information, common uses and
+                important safety precautions.
+            </p>
+        </section>
+
+        <!-- Medicine Search -->
+        <section class="medicine-search-section">
+            <h2>Find Medicine Information</h2>
+
+            <div class="medicine-search-box">
+                <span>⌕</span>
+                <input
+                    type="text"
+                    id="medicine-search"
+                    placeholder="Search by medicine name or category"
+                >
+            </div>
+
+            <div class="medicine-filters">
+                <button class="filter-btn active" data-category="all">
+                    All Medicines
+                </button>
+                <button class="filter-btn" data-category="pain-relief">
+                    Pain Relief
+                </button>
+                <button class="filter-btn" data-category="allergy-relief">
+                    Allergy Relief
+                </button>
+                <button class="filter-btn" data-category="general">
+                    General Information
+                </button>
+            </div>
+        </section>
+
+        <!-- Medicine Cards -->
+        <section class="medicine-list-section">
+          
+<div class="medicine-cards" id="medicine-cards">
+
+    <article class="medicine-card" data-category="pain-relief">
+        <div class="medicine-card-icon">💊</div>
+        <span class="medicine-category">Pain Relief</span>
+        <h3>Paracetamol</h3>
+        <p>
+            Educational information about a commonly used
+            medicine for pain and fever.
+        </p>
+        <a href="medicine-details.html?medicine=paracetamol"
+           class="medicine-details-link">
+            View Details →
+        </a>
+    </article>
+
+    <article class="medicine-card" data-category="pain-relief">
+        <div class="medicine-card-icon">💊</div>
+        <span class="medicine-category">Pain Relief</span>
+        <h3>Ibuprofen</h3>
+        <p>
+            Learn about its common uses, possible side effects
+            and important safety precautions.
+        </p>
+        <a href="medicine-details.html?medicine=ibuprofen"
+           class="medicine-details-link">
+            View Details →
+        </a>
+    </article>
+
+    <article class="medicine-card" data-category="pain-relief">
+        <div class="medicine-card-icon">💊</div>
+        <span class="medicine-category">Pain Relief</span>
+        <h3>Aspirin</h3>
+        <p>
+            Explore general information, common uses
+            and important medicine safety considerations.
+        </p>
+        <a href="medicine-details.html?medicine=aspirin"
+           class="medicine-details-link">
+            View Details →
+        </a>
+    </article>
+<article class="medicine-card" data-category="allergy-relief">
+    <div class="medicine-card-icon">💊</div>
+    <span class="medicine-category">Allergy Relief</span>
+    <h3>Cetirizine</h3>
+    <p>
+        Educational information about an antihistamine
+        used to relieve common allergy symptoms.
+    </p>
+    <a href="medicine-details.html?medicine=cetirizine"
+       class="medicine-details-link">
+        View Details →
+    </a>
+</article>
+
+<article class="medicine-card" data-category="allergy-relief">
+    <div class="medicine-card-icon">💊</div>
+    <span class="medicine-category">Allergy Relief</span>
+    <h3>Loratadine</h3>
+    <p>
+        Learn about this antihistamine, its common uses
+        and important safety considerations.
+    </p>
+    <a href="medicine-details.html?medicine=loratadine"
+       class="medicine-details-link">
+        View Details →
+    </a>
+</article>
+
+<article class="medicine-card" data-category="general">
+    <div class="medicine-card-icon">💧</div>
+    <span class="medicine-category">General Information</span>
+    <h3>Oral Rehydration Salts (ORS)</h3>
+    <p>
+        Learn how ORS helps replace fluids and electrolytes
+        lost during diarrhoea and dehydration.
+    </p>
+    <a href="medicine-details.html?medicine=ors"
+       class="medicine-details-link">
+        View Details →
+    </a>
+</article>
+
+<article class="medicine-card" data-category="general">
+    <div class="medicine-card-icon">💊</div>
+    <span class="medicine-category">General Information</span>
+    <h3>Antacids</h3>
+    <p>
+        Explore how antacids help provide short-term
+        relief from indigestion and heartburn.
+    </p>
+    <a href="medicine-details.html?medicine=antacids"
+       class="medicine-details-link">
+        View Details →
+    </a>
+</article>
+
+</div>
+
+        </section>
+
+        <!-- Medicine Safety Notice -->
+        <section class="medicine-safety">
+            <span class="safety-icon">ⓘ</span>
+            <div>
+                <h3>Use Medicines Responsibly</h3>
+                <p>
+                    Do not start, stop or change medication without
+                    appropriate professional guidance. Always check
+                    allergies, warnings and possible interactions.
+                </p>
+            </div>
+        </section>
+
+        <div class="medicine-disclaimer">
+            <span>ⓘ</span>
+            <p>
+                Medicine information on MediSense AI is for educational
+                purposes only. It is not a prescription or a substitute
+                for advice from a qualified healthcare professional.
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-brand">
+            <h3>♡ MediSense AI</h3>
+            <p>Your Smart Health Companion</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MediSense AI. All rights reserved.</p>
+            <p>Built with care for a healthier India.</p>
+        </div>
+    </footer>
+<script src="medicine-guide.js"></script>
+</body>
+</html>

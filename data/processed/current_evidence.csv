@@ -1,0 +1,111 @@
+evidence_id,question,data_type
+E_103,Have you lost your sense of smell?,B
+E_111,Do you feel like you are dying or were you afraid that you were about do die?,B
+E_112,Do you wheeze while inhaling or is your breathing noisy after coughing spells?,B
+E_114,Are you more irritable or has your mood been very unstable recently?,B
+E_127,Do you feel that your eyes produce excessive tears?,B
+E_128,Have you ever felt like you were suffocating for a very short time associated with inability to breathe or speak?,B
+E_129,"Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for?",B
+E_13,Do you find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms?,B
+E_130,What color is the rash?,C
+E_131,Do your lesions peel off?,C
+E_132,Is the rash swollen?,C
+E_133,Where is the affected region located?,M
+E_134,How intense is the pain caused by the rash?,C
+E_135,Is the lesion (or are the lesions) larger than 1cm?,C
+E_136,How severe is the itching?,C
+E_14,Do you have chest pain even at rest?,B
+E_140,Have you recently had stools that were black (like coal)?,B
+E_144,Do you have diffuse (widespread) muscle pain?,B
+E_145,Do you have very abundant or very long menstruation periods?,B
+E_148,Are you feeling nauseous or do you feel like vomiting?,B
+E_150,Have you been able to pass stools or gas since your symptoms increased?,B
+E_151,Do you have swelling in one or more areas of your body?,B
+E_152,Where is the swelling located?,M
+E_154,Is your skin much paler than usual?,B
+E_155,"Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations?",B
+E_156,"Have you had weakness or paralysis on one side of the face, which may still be present or completely resolved?",B
+E_157,"Have you recently had numbness, loss of sensation or tingling, in both arms and legs and around your mouth?",B
+E_159,Did you lose consciousness?,B
+E_161,Have you recently had a loss of appetite or do you get full more quickly then usually?,B
+E_162,Have you had an involuntary weight loss over the last 3 months?,B
+E_163,Have you had any vaginal discharge?,B
+E_164,Do you feel your heart is beating very irregularly or in a disorganized pattern?,B
+E_166,Did you vomit after coughing?,B
+E_168,Do you have trouble keeping your tongue in your mouth?,B
+E_169,Is your nose or the back of your throat itchy?,B
+E_170,Do you have severe itching in one or both eyes?,B
+E_171,Do you feel like you are detached from your own body or your surroundings?,B
+E_172,Do you have a hard time opening/raising one or both eyelids?,B
+E_173,"Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?",B
+E_174,Have you been unintentionally losing weight or have you lost your appetite?,B
+E_175,"Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today?",B
+E_176,"Did you previously, or do you currently, have any weakness/paralysis in one or more of your limbs or in your face?",B
+E_177,"Do you currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body?",B
+E_178,Have you noticed any unusual bleeding or bruising related to your consultation today?,B
+E_179,Have you noticed light red blood or blood clots in your stool?,B
+E_180,Are you unable to control the direction of your eyes?,B
+E_181,Do you have nasal congestion or a clear runny nose?,B
+E_182,Do you have greenish or yellowish nasal discharge?,B
+E_188,Do you have pale stools and dark urine?,B
+E_190,Have you noticed that you produce more saliva than usual?,B
+E_192,Do you feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side?,B
+E_193,"Do you have annoying muscle spasms in your face, neck or any other part of your body?",B
+E_194,Have you noticed a high pitched sound when breathing in?,B
+E_201,Do you have a cough?,B
+E_202,Does the person have a whooping cough?,B
+E_203,Do you have intense coughing fits?,B
+E_205,Do you suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it?,B
+E_206,Do you have painful mouth ulcers or sores?,B
+E_210,Have you recently thrown up blood or something resembling coffee beans?,B
+E_211,Have you vomited several times or have you made several efforts to vomit?,B
+E_212,"Have you noticed that the tone of your voice has become deeper, softer or hoarse?",B
+E_214,Have you noticed a wheezing sound when you exhale?,B
+E_215,Do you have symptoms that get worse after eating?,B
+E_216,Do you have pain that is increased with movement?,B
+E_217,Are your symptoms worse when lying down and alleviated while sitting up?,B
+E_218,Do you have symptoms that are increased with physical exertion but alleviated with rest?,B
+E_219,Are your symptoms more prominent at night?,B
+E_220,Do you have pain that is increased when you breathe in deeply?,B
+E_221,"Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement?",B
+E_23,Do you ever temporarily stop breathing while you’re asleep?,B
+E_30,Do you feel your abdomen is bloated or distended (swollen due to pressure from inside)?,B
+E_32,Do you have a decrease in appetite?,B
+E_33,Do you have pain that improves when you lean forward?,B
+E_38,Do you have pain or weakness in your jaw?,B
+E_39,Have you felt confused or disorientated lately?,B
+E_42,Have you been in contact with or ate something that you have an allergy to?,B
+E_43,Have you lost consciousness associated with violent and sustained muscle contractions or had an absence episode?,B
+E_45,Have you been coughing up blood?,B
+E_50,Have you had significantly increased sweating?,B
+E_51,Have you had diarrhea or an increase in stool frequency?,B
+E_52,Do you have the perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)?,B
+E_53,"Do you have pain somewhere, related to your reason for consulting?",B
+E_54,Characterize your pain:,M
+E_55,Do you feel pain somewhere?,M
+E_56,How intense is the pain?,C
+E_57,Does the pain radiate to another location?,M
+E_58,How precisely is the pain located?,C
+E_59,How fast did the pain appear?,C
+E_63,Do you have difficulty articulating words/speaking?,B
+E_64,Do you feel out of breath with minimal physical effort?,B
+E_65,"Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing?",B
+E_66,Are you experiencing shortness of breath or difficulty breathing in a significant way?,B
+E_67,Do you have bouts of choking or shortness of breath that wake you up at night?,B
+E_74,Have you noticed a diffuse (widespread) redness in one or both eyes?,B
+E_75,Do you feel like you are (or were) choking or suffocating?,B
+E_76,Do you feel slightly dizzy or lightheaded?,B
+E_77,Do you have a cough that produces colored or more abundant sputum than usual?,B
+E_82,Do you feel lightheaded and dizzy or do you feel like you are about to faint?,B
+E_83,Have you noticed weakness in your facial muscles and/or eyes?,B
+E_84,Do you feel weakness in both arms and/or both legs?,B
+E_88,Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long?,B
+E_89,Do you constantly feel fatigued or do you have non-restful sleep?,B
+E_9,Do you have swollen or painful lymph nodes?,B
+E_90,Do your symptoms of muscle weakness increase with fatigue and/or stress?,B
+E_91,Do you have a fever (either felt or measured with a thermometer)?,B
+E_92,Did your cheeks suddenly turn red?,B
+E_93,"Do you have numbness, loss of sensation or tingling in the feet?",B
+E_94,Have you had chills or shivers?,B
+E_96,Have you gained weight recently?,B
+E_97,Do you have a sore throat?,B

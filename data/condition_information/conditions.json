@@ -1,0 +1,1502 @@
+
+{
+  "Tuberculosis": {
+    "display_name": "Tuberculosis",
+    "overview": "Tuberculosis (TB) is an infectious disease caused by bacteria. It most commonly affects the lungs but can also affect other parts of the body. TB is preventable and curable with appropriate medical care.",
+    "common_symptoms": [
+      "Persistent cough, sometimes with blood",
+      "Chest pain",
+      "Weakness or fatigue",
+      "Unexplained weight loss",
+      "Fever",
+      "Night sweats"
+    ],
+    "general_guidance": [
+      "Seek medical evaluation if you have a persistent cough, fever or unexplained weight loss.",
+      "A healthcare professional may recommend appropriate tests to determine whether TB is present.",
+      "If diagnosed, follow the treatment plan prescribed by your healthcare professional.",
+      "Do not stop prescribed TB treatment without medical advice.",
+      "Cover your mouth and nose when coughing or sneezing, and maintain good ventilation."
+    ],
+    "urgent_warning_signs": [
+      "Coughing up blood",
+      "Severe difficulty breathing",
+      "Severe chest pain"
+    ],
+    "source_name": "World Health Organization (WHO)",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis"
+  },
+  
+
+  "Allergic sinusitis": {
+    "display_name": "Allergic Sinusitis",
+    "overview": "The dataset uses the label Allergic sinusitis. Allergy-related nasal symptoms are commonly described as allergic rhinitis, which occurs when the nose reacts to allergens such as pollen, dust mites or mould.",
+    "common_symptoms": [
+      "Sneezing",
+      "Itchy nose",
+      "Runny or blocked nose",
+      "Itchy, red or watery eyes",
+      "Cough",
+      "Itchy roof of the mouth"
+    ],
+    "general_guidance": [
+      "Try to identify and avoid triggers that cause your symptoms.",
+      "Keep indoor spaces clean and well ventilated.",
+      "A pharmacist or healthcare professional can advise on suitable symptom relief.",
+      "Seek medical advice if symptoms worsen or affect your daily activities."
+    ],
+    "urgent_warning_signs": [
+      "Severe difficulty breathing",
+      "Sudden swelling of the lips, tongue or throat",
+      "Difficulty swallowing or feeling that the throat is closing"
+    ],
+    "source_name": "NHS - Allergic Rhinitis",
+    "source_url": "https://www.nhs.uk/conditions/allergic-rhinitis/"
+  },
+
+  "Acute rhinosinusitis": {
+    "display_name": "Acute Rhinosinusitis",
+    "overview": "Acute rhinosinusitis involves inflammation and swelling of the lining of the nose and sinuses. It commonly occurs after a cold or flu and is often caused by an infection.",
+    "common_symptoms": [
+      "Pain or tenderness around the cheeks, eyes or forehead",
+      "Blocked or runny nose",
+      "Reduced sense of smell",
+      "Yellow or green nasal mucus",
+      "Headache",
+      "Fever",
+      "Cough"
+    ],
+    "general_guidance": [
+      "Get adequate rest and drink enough fluids.",
+      "Avoid smoking and exposure to irritants.",
+      "Saline nasal rinses may help relieve nasal congestion.",
+      "Consult a healthcare professional if symptoms persist, recur or worsen."
+    ],
+    "urgent_warning_signs": [
+      "Feeling very unwell",
+      "Symptoms becoming significantly worse",
+      "Severe symptoms in someone with a weakened immune system"
+    ],
+    "source_name": "NHS - Sinusitis",
+    "source_url": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/"
+  },
+
+  "Influenza": {
+    "display_name": "Influenza (Flu)",
+    "overview": "Influenza, commonly called flu, is a contagious respiratory illness caused by influenza viruses. Symptoms often begin suddenly and can range from mild to severe.",
+    "common_symptoms": [
+      "Fever or chills",
+      "Cough",
+      "Sore throat",
+      "Runny or blocked nose",
+      "Muscle or body aches",
+      "Headache",
+      "Fatigue",
+      "Sometimes vomiting or diarrhea"
+    ],
+    "general_guidance": [
+      "Get adequate rest and drink enough fluids.",
+      "Stay home and limit close contact with others while unwell.",
+      "Maintain hand hygiene and improve indoor ventilation.",
+      "Contact a healthcare professional if symptoms are severe or you are at increased risk of complications."
+    ],
+    "urgent_warning_signs": [
+      "Difficulty breathing or shortness of breath",
+      "Persistent chest or abdominal pain or pressure",
+      "Persistent dizziness or confusion",
+      "Severe weakness",
+      "Fever or cough that improves but then returns or worsens"
+    ],
+    "source_name": "CDC - Signs and Symptoms of Flu",
+    "source_url": "https://www.cdc.gov/flu/signs-symptoms/"
+  },
+
+  "Pneumonia": {
+    "display_name": "Pneumonia",
+    "overview": "Pneumonia is an acute respiratory infection that can be caused by viruses or bacteria. It affects the lungs and can cause difficulty breathing. Severity varies from mild to life-threatening.",
+    "common_symptoms": [
+      "Cough",
+      "Shortness of breath",
+      "Fever",
+      "Sweating and chills",
+      "Fatigue",
+      "Chest pain",
+      "Nausea, vomiting or diarrhea",
+      "Confusion, particularly in older adults"
+    ],
+    "general_guidance": [
+      "Seek medical evaluation if pneumonia is suspected.",
+      "Follow the treatment plan prescribed by a qualified healthcare professional.",
+      "Get adequate rest and maintain hydration.",
+      "Maintain hand hygiene and discuss appropriate vaccinations with a healthcare professional."
+    ],
+    "urgent_warning_signs": [
+      "Severe difficulty breathing",
+      "Severe or persistent chest pain",
+      "New confusion or reduced alertness",
+      "Rapid worsening of symptoms"
+    ],
+    "source_name": "World Health Organization - Pneumonia",
+    "source_url": "https://www.who.int/health-topics/pneumonia"
+  },
+
+  "URTI": {
+    "display_name": "Upper Respiratory Tract Infection",
+    "overview": "An upper respiratory tract infection affects parts of the respiratory system such as the nose, sinuses and throat. Many respiratory infections improve over time, although some require medical assessment.",
+    "common_symptoms": [
+      "Cough",
+      "Sneezing",
+      "Stuffy or runny nose",
+      "Sore throat",
+      "Headache",
+      "Muscle aches",
+      "Fever",
+      "Feeling generally unwell"
+    ],
+    "general_guidance": [
+      "Get adequate rest and drink enough water.",
+      "Maintain hand hygiene and cover your mouth when coughing or sneezing.",
+      "Avoid close contact with others while unwell.",
+      "Consult a healthcare professional if symptoms persist, worsen or cause concern."
+    ],
+    "urgent_warning_signs": [
+      "Severe difficulty breathing",
+      "Persistent chest pain or pressure",
+      "Confusion or unusual drowsiness",
+      "Symptoms that improve and then become significantly worse"
+    ],
+    "source_name": "NHS - Respiratory Tract Infections",
+    "source_url": "https://www.nhs.uk/conditions/respiratory-tract-infection/"
+  },
+  
+
+"Bronchitis": {
+  "display_name": "Bronchitis",
+  "overview": "Bronchitis is inflammation of the airways in the lungs. Acute bronchitis is commonly caused by a viral infection and usually improves on its own.",
+  "common_symptoms": [
+    "Persistent cough, with or without mucus",
+    "Chest discomfort",
+    "Fatigue",
+    "Sore throat",
+    "Mild fever",
+    "Shortness of breath"
+  ],
+  "general_guidance": [
+    "Get adequate rest and drink plenty of fluids.",
+    "Avoid smoking and exposure to smoke.",
+    "A healthcare professional can assess symptoms and recommend appropriate care.",
+    "Antibiotics do not usually help when bronchitis is caused by a virus.",
+    "Seek medical advice if the cough lasts more than three weeks or symptoms worsen."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "Coughing up blood",
+    "Chest pain",
+    "Blue or grey lips or skin",
+    "Sudden confusion"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/bronchitis/"
+},
+"Viral pharyngitis": {
+  "display_name": "Viral Pharyngitis",
+  "overview": "Viral pharyngitis is inflammation of the throat caused by a viral infection. It commonly occurs with cold or flu-like illnesses. Most viral sore throats improve within about one week.",
+  "common_symptoms": [
+    "Sore throat",
+    "Pain while swallowing",
+    "Dry or scratchy throat",
+    "Cough",
+    "Runny nose",
+    "Hoarse voice",
+    "Sometimes fever"
+  ],
+  "general_guidance": [
+    "Drink adequate fluids.",
+    "Get sufficient rest.",
+    "Avoid smoking and exposure to throat irritants.",
+    "A healthcare professional can assess persistent or worsening symptoms.",
+    "Antibiotics do not treat viral infections."
+  ],
+  "urgent_warning_signs": [
+    "Difficulty breathing",
+    "Inability to swallow fluids or saliva",
+    "Severe dehydration",
+    "Rapidly worsening symptoms"
+  ],
+  "source_name": "Centers for Disease Control and Prevention (CDC)",
+  "source_url": "https://www.cdc.gov/sore-throat/about/index.html"
+},
+"Acute otitis media": {
+  "display_name": "Acute Otitis Media",
+  "overview": "Acute otitis media is a sudden infection or inflammation of the middle ear. It is particularly common in children and can occur after a cold or other respiratory infection.",
+  "common_symptoms": [
+    "Ear pain",
+    "Fever",
+    "Difficulty hearing",
+    "Feeling of pressure or fullness in the ear",
+    "Fluid or discharge from the ear",
+    "Irritability or disturbed sleep in children"
+  ],
+  "general_guidance": [
+    "Seek medical advice if ear pain persists or symptoms worsen.",
+    "A healthcare professional can examine the ear and determine appropriate care.",
+    "Many uncomplicated ear infections improve without antibiotics.",
+    "Do not insert cotton buds or other objects into the ear.",
+    "Follow a healthcare professional's advice about suitable pain relief."
+  ],
+  "urgent_warning_signs": [
+    "Swelling around or behind the ear",
+    "New or worsening hearing loss",
+    "Fluid or pus coming from the ear",
+    "Very high fever or feeling seriously unwell",
+    "Severe dizziness or repeated vomiting"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/ear-infections/"
+},
+"Chronic rhinosinusitis": {
+  "display_name": "Chronic Rhinosinusitis",
+  "overview": "Chronic rhinosinusitis is long-lasting inflammation of the lining of the nose and sinuses. It can cause persistent nasal blockage and facial discomfort, with symptoms lasting for several months.",
+  "common_symptoms": [
+    "Persistent blocked nose",
+    "Runny nose",
+    "Reduced sense of smell",
+    "Facial pain or pressure",
+    "Mucus dripping down the back of the throat",
+    "Headache"
+  ],
+  "general_guidance": [
+    "Consult a healthcare professional if symptoms persist for several months.",
+    "A healthcare professional may recommend saline nasal rinses or other suitable treatment.",
+    "Avoid known triggers such as smoke and other nasal irritants.",
+    "Follow the treatment plan recommended by your healthcare professional.",
+    "An ENT specialist may be needed for persistent or recurrent symptoms."
+  ],
+  "urgent_warning_signs": [
+    "Swelling or redness around the eyes",
+    "Vision changes or double vision",
+    "Severe or rapidly worsening headache",
+    "Confusion or other significant neurological symptoms"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/sinusitis-sinus-infection/"
+},
+"Bronchiolitis": {
+  "display_name": "Bronchiolitis",
+  "overview": "Bronchiolitis is a common viral chest infection affecting the small airways in the lungs. It mainly affects babies and children under two years of age and can sometimes become serious.",
+  "common_symptoms": [
+    "Runny or blocked nose",
+    "Cough",
+    "Mild fever",
+    "Wheezing or noisy breathing",
+    "Rapid breathing",
+    "Difficulty feeding or eating",
+    "Irritability"
+  ],
+  "general_guidance": [
+    "Monitor the child's breathing and feeding.",
+    "Offer appropriate fluids or smaller, more frequent feeds.",
+    "Keep the child away from cigarette smoke.",
+    "Seek medical advice if feeding decreases or symptoms worsen.",
+    "Follow a healthcare professional's advice, especially for young babies."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "Pauses in breathing",
+    "Blue or grey lips, tongue or skin",
+    "Unusual drowsiness or difficulty waking",
+    "Signs of significant dehydration"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/bronchiolitis/"
+}
+
+,
+"Spontaneous pneumothorax": {
+  "display_name": "Spontaneous Pneumothorax",
+  "overview": "A spontaneous pneumothorax occurs when air leaks into the space between the lung and chest wall, causing part or all of the lung to collapse. It can happen without an obvious injury and requires prompt medical assessment.",
+  "common_symptoms": [
+    "Sudden sharp chest pain, usually on one side",
+    "Chest pain that worsens during deep breathing",
+    "Shortness of breath",
+    "Rapid breathing",
+    "Cough",
+    "Rapid heartbeat"
+  ],
+  "general_guidance": [
+    "Seek immediate medical assessment if you experience sudden chest pain or breathlessness.",
+    "A healthcare professional may recommend a chest X-ray or other imaging.",
+    "Treatment depends on the size of the pneumothorax and the person's symptoms.",
+    "Some cases require hospital observation, while others need removal of trapped air.",
+    "Avoid smoking and follow medical advice about physical activity, flying and diving."
+  ],
+  "urgent_warning_signs": [
+    "Severe or worsening difficulty breathing",
+    "Sudden or severe chest pain",
+    "Blue or grey lips or skin",
+    "Fainting or collapse",
+    "Rapid deterioration in condition"
+  ],
+  "source_name": "Asthma + Lung UK",
+  "source_url": "https://www.asthmaandlung.org.uk/conditions/pneumothorax-collapsed-lung"
+},
+"Cluster headache": {
+  "display_name": "Cluster Headache",
+  "overview": "Cluster headache is a type of headache that causes repeated attacks of severe pain, usually around one eye or one side of the head. Attacks may occur several times a day during periods lasting weeks or months.",
+  "common_symptoms": [
+    "Severe sharp or burning pain around one eye",
+    "Pain on one side of the head",
+    "Red or watering eye",
+    "Blocked or runny nose on the affected side",
+    "Swelling or drooping of the eyelid",
+    "Restlessness during headache attacks",
+    "Nausea"
+  ],
+  "general_guidance": [
+    "Consult a healthcare professional if you experience repeated severe headaches.",
+    "Keep a headache diary to record the timing, duration and possible triggers.",
+    "Avoid identified triggers where possible.",
+    "A healthcare professional may recommend specialist treatment to manage or prevent attacks.",
+    "Do not assume a new or unusually severe headache is a cluster headache without medical assessment."
+  ],
+  "urgent_warning_signs": [
+    "Sudden extremely severe headache",
+    "New weakness or numbness",
+    "Difficulty speaking or walking",
+    "Confusion or loss of consciousness",
+    "New drooping eyelid or unequal pupil size"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/cluster-headaches/"
+},
+"Boerhaave": {
+  "display_name": "Boerhaave Syndrome",
+  "overview": "Boerhaave syndrome is a rare but serious condition involving a full-thickness tear in the oesophagus (food pipe). It often occurs after forceful vomiting or retching. It is a medical emergency because contents can leak into the chest and cause severe infection.",
+  "common_symptoms": [
+    "Sudden severe chest pain",
+    "Pain in the upper abdomen",
+    "Pain in the neck or back",
+    "Difficulty swallowing",
+    "Vomiting or a history of forceful retching",
+    "Shortness of breath",
+    "Fever"
+  ],
+  "general_guidance": [
+    "Suspected Boerhaave syndrome requires immediate emergency medical assessment.",
+    "Do not wait for symptoms to improve on their own.",
+    "Emergency hospital assessment and imaging may be required.",
+    "Treatment may involve specialist procedures or surgery.",
+    "Follow the emergency medical team's instructions."
+  ],
+  "urgent_warning_signs": [
+    "Severe chest pain after forceful vomiting",
+    "Difficulty breathing",
+    "Severe abdominal or neck pain",
+    "Fever with chest pain",
+    "Fainting, confusion or signs of shock"
+  ],
+  "source_name": "Cleveland Clinic",
+  "source_url": "https://my.clevelandclinic.org/health/diseases/22898-boerhaave-syndrome"
+},
+"Spontaneous rib fracture": {
+  "display_name": "Spontaneous Rib Fracture",
+  "overview": "A spontaneous rib fracture is a break in a rib that can occur without a major injury. It may sometimes result from repeated severe coughing or weakened bones, such as in people with osteoporosis. Medical assessment is important to check for associated injuries and underlying causes.",
+  "common_symptoms": [
+    "Pain in the rib or chest area",
+    "Pain that worsens during deep breathing",
+    "Pain while coughing or sneezing",
+    "Tenderness over the affected rib",
+    "Pain while bending or twisting",
+    "Discomfort when pressing the affected area"
+  ],
+  "general_guidance": [
+    "Seek medical assessment for unexplained rib pain or suspected fracture.",
+    "A healthcare professional may recommend imaging to assess the injury.",
+    "Follow professional advice about pain management and activity.",
+    "Avoid activities that worsen the pain while recovering.",
+    "A healthcare professional may assess bone health or other underlying causes."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "Worsening chest pain",
+    "Coughing up blood",
+    "Dizziness or fainting",
+    "Chest pressure or pain spreading to the arm, jaw or back"
+  ],
+  "source_name": "Mayo Clinic",
+  "source_url": "https://www.mayoclinic.org/diseases-conditions/broken-ribs/symptoms-causes/syc-20350763"
+},
+"GERD": {
+  "display_name": "Gastroesophageal Reflux Disease (GERD)",
+  "overview": "Gastroesophageal reflux disease (GERD) occurs when stomach contents repeatedly flow back into the oesophagus (food pipe). This can cause irritation and discomfort, particularly after meals or when lying down.",
+  "common_symptoms": [
+    "Heartburn or burning sensation in the chest",
+    "Acid or sour taste in the mouth",
+    "Regurgitation of stomach contents",
+    "Bloating",
+    "Nausea",
+    "Recurring cough or hiccups",
+    "Hoarse voice"
+  ],
+  "general_guidance": [
+    "Consider eating smaller meals and avoiding meals close to bedtime.",
+    "Notice whether particular foods or drinks trigger symptoms.",
+    "Avoid lying down immediately after eating.",
+    "Seek medical advice if symptoms occur frequently or persist.",
+    "A healthcare professional can recommend appropriate treatment if needed."
+  ],
+  "urgent_warning_signs": [
+    "Severe or persistent chest pain",
+    "Chest pain with breathlessness or sweating",
+    "Difficulty or pain while swallowing",
+    "Vomiting blood",
+    "Black or tar-like stools",
+    "Unexplained weight loss"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/"
+}
+
+,
+"HIV (initial infection)": {
+  "display_name": "HIV (Initial Infection)",
+  "overview": "HIV (human immunodeficiency virus) attacks the immune system. During the initial stage, some people develop flu-like symptoms, while others may have no noticeable symptoms. Symptoms alone cannot confirm HIV infection; testing is necessary.",
+  "common_symptoms": [
+    "Fever",
+    "Sore throat",
+    "Skin rash",
+    "Swollen lymph nodes",
+    "Muscle or joint pain",
+    "Headache",
+    "Fatigue",
+    "Night sweats"
+  ],
+  "general_guidance": [
+    "If you think you may have been exposed to HIV, seek medical advice and testing promptly.",
+    "If a possible exposure occurred within the last 72 hours, seek urgent medical care to discuss post-exposure prophylaxis (PEP).",
+    "A healthcare professional can recommend the appropriate HIV test.",
+    "An early negative test may need to be repeated after the test-specific window period.",
+    "If HIV is confirmed, effective treatment is available and should be started under medical supervision.",
+    "Avoid sharing needles or other injection equipment."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "Confusion or loss of consciousness",
+    "Severe dehydration",
+    "Rapidly worsening illness"
+  ],
+  "source_name": "National Institutes of Health (NIH)",
+  "source_url": "https://clinicalinfo.hiv.gov/en/guidelines/hiv-clinical-guidelines-adult-and-adolescent-arv/special-populations-early-acute-recent-hiv-infection"
+},
+"Anemia": {
+  "display_name": "Anemia",
+  "overview": "Anemia is a condition in which the blood has a lower-than-normal haemoglobin level or an insufficient number of healthy red blood cells. This can reduce the amount of oxygen carried to body tissues. It may have several causes, including nutritional deficiencies, blood loss and underlying illnesses.",
+  "common_symptoms": [
+    "Persistent tiredness or weakness",
+    "Dizziness or light-headedness",
+    "Pale skin",
+    "Shortness of breath",
+    "Headache",
+    "Cold hands and feet",
+    "Rapid heartbeat"
+  ],
+  "general_guidance": [
+    "Consult a healthcare professional to identify the underlying cause.",
+    "A blood test, such as a complete blood count, may be recommended.",
+    "Treatment depends on the type and cause of anemia.",
+    "Maintain a balanced diet containing appropriate sources of iron, vitamin B12 and folate.",
+    "Do not start iron supplements without appropriate medical advice."
+  ],
+  "urgent_warning_signs": [
+    "Severe shortness of breath",
+    "Chest pain",
+    "Fainting",
+    "Rapid heartbeat with severe weakness",
+    "Heavy or ongoing bleeding"
+  ],
+  "source_name": "World Health Organization (WHO)",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/anaemia"
+},
+"Inguinal hernia": {
+  "display_name": "Inguinal Hernia",
+  "overview": "An inguinal hernia occurs when tissue, often part of the intestine, pushes through a weak area in the lower abdominal wall near the groin. It may cause a visible or noticeable bulge that can become more prominent when coughing, bending or lifting.",
+  "common_symptoms": [
+    "A bulge in the groin area",
+    "Discomfort or pain in the groin",
+    "A dragging or heavy sensation in the groin",
+    "Pain that increases when coughing or lifting",
+    "A bulge that becomes more noticeable when standing",
+    "Discomfort during physical activity"
+  ],
+  "general_guidance": [
+    "Consult a healthcare professional if you notice a groin lump or persistent groin discomfort.",
+    "A physical examination is commonly used to assess a suspected hernia.",
+    "Treatment depends on the size of the hernia, symptoms and overall health.",
+    "Avoid activities that cause significant pain until you receive medical advice.",
+    "A healthcare professional can discuss whether monitoring or surgery is appropriate."
+  ],
+  "urgent_warning_signs": [
+    "Sudden severe pain in the groin",
+    "A painful lump that becomes firm or cannot be pushed back",
+    "Redness or darkening of the skin over the lump",
+    "Vomiting or severe nausea",
+    "Abdominal swelling or inability to pass stool or gas"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/inguinal-hernia-repair/"
+},
+"Myasthenia gravis": {
+  "display_name": "Myasthenia Gravis",
+  "overview": "Myasthenia gravis is a long-term autoimmune condition that affects communication between nerves and muscles. It causes muscle weakness that often becomes worse with activity and improves after rest. It commonly affects the eyes, face, throat and limbs.",
+  "common_symptoms": [
+    "Drooping of one or both eyelids",
+    "Double vision",
+    "Difficulty chewing",
+    "Difficulty swallowing",
+    "Slurred or weak speech",
+    "Weakness in the arms or legs",
+    "Difficulty holding up the head",
+    "Muscle weakness that worsens with activity"
+  ],
+  "general_guidance": [
+    "Seek assessment from a healthcare professional if you experience unexplained or fluctuating muscle weakness.",
+    "A neurologist may recommend tests to evaluate nerve and muscle function.",
+    "Treatment is available to help manage symptoms.",
+    "Follow the treatment plan prescribed by your healthcare professional.",
+    "Discuss infections, new medicines and worsening weakness with your healthcare team."
+  ],
+  "urgent_warning_signs": [
+    "Severe or worsening difficulty breathing",
+    "Difficulty swallowing saliva",
+    "Choking or inability to swallow",
+    "Rapidly worsening muscle weakness",
+    "Severe speech or breathing difficulties"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/myasthenia-gravis/symptoms/"
+},
+"Whooping cough": {
+  "display_name": "Whooping Cough (Pertussis)",
+  "overview": "Whooping cough, also called pertussis, is a contagious respiratory infection caused by the bacterium Bordetella pertussis. It often begins with cold-like symptoms and can develop into severe coughing fits. It can be particularly dangerous for babies and young children.",
+  "common_symptoms": [
+    "Runny or blocked nose",
+    "Mild fever",
+    "Persistent cough",
+    "Repeated severe coughing fits",
+    "A high-pitched whooping sound while breathing in",
+    "Vomiting after coughing",
+    "Extreme tiredness after coughing episodes"
+  ],
+  "general_guidance": [
+    "Seek medical advice if you or your child develop persistent or severe coughing fits.",
+    "Early medical assessment is important, especially for babies and pregnant people.",
+    "A healthcare professional may recommend testing and appropriate treatment.",
+    "Follow prescribed treatment and advice about preventing the spread of infection.",
+    "Keep away from vulnerable people until a healthcare professional advises that it is safe.",
+    "Vaccination helps protect against whooping cough."
+  ],
+  "urgent_warning_signs": [
+    "Difficulty breathing",
+    "Pauses in breathing, especially in babies",
+    "Blue or grey lips or skin",
+    "Severe dehydration",
+    "Seizures",
+    "Unusual drowsiness or difficulty waking"
+  ],
+  "source_name": "Centers for Disease Control and Prevention (CDC)",
+  "source_url": "https://www.cdc.gov/pertussis/signs-symptoms/"
+}
+
+,
+"Anaphylaxis": {
+  "display_name": "Anaphylaxis",
+  "overview": "Anaphylaxis is a severe, rapidly developing allergic reaction that can be life-threatening. It may occur after exposure to certain foods, medicines or insect stings. It can affect breathing, circulation and multiple body systems.",
+  "common_symptoms": [
+    "Sudden swelling of the lips, tongue or throat",
+    "Difficulty breathing or wheezing",
+    "Tightness in the throat or difficulty swallowing",
+    "Raised, itchy skin rash or hives",
+    "Dizziness or feeling faint",
+    "Rapid heartbeat",
+    "Nausea or vomiting"
+  ],
+  "general_guidance": [
+    "Suspected anaphylaxis is a medical emergency. Do not wait for symptoms to improve.",
+    "Use a prescribed adrenaline auto-injector immediately if available, following its instructions.",
+    "Call emergency services immediately. In India, call 112.",
+    "Follow the emergency operator's instructions while waiting for help.",
+    "Even if symptoms improve after adrenaline, emergency hospital assessment is still necessary."
+  ],
+  "urgent_warning_signs": [
+    "Sudden swelling of the mouth, tongue or throat",
+    "Severe difficulty breathing",
+    "Throat tightness or inability to swallow",
+    "Blue, grey or unusually pale lips or skin",
+    "Sudden confusion, collapse or loss of consciousness"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/anaphylaxis/"
+},
+"Epiglottitis": {
+  "display_name": "Epiglottitis",
+  "overview": "Epiglottitis is inflammation and swelling of the epiglottis, the flap of tissue that helps prevent food and liquid from entering the windpipe. Severe swelling can obstruct the airway, making this a medical emergency.",
+  "common_symptoms": [
+    "Severe sore throat",
+    "High fever",
+    "Difficulty or pain while swallowing",
+    "Drooling because of difficulty swallowing",
+    "Hoarse or muffled voice",
+    "High-pitched or noisy breathing",
+    "Difficulty breathing"
+  ],
+  "general_guidance": [
+    "Suspected epiglottitis requires immediate emergency medical attention.",
+    "Call emergency services immediately. In India, call 112.",
+    "Keep the person calm and in a comfortable upright position.",
+    "Do not try to examine the throat or force anything into the mouth.",
+    "Do not attempt to manage suspected epiglottitis with home remedies.",
+    "Hospital treatment and airway monitoring may be necessary."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "High-pitched breathing sounds",
+    "Drooling or inability to swallow saliva",
+    "Blue or grey lips or skin",
+    "Rapidly worsening symptoms"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/epiglottitis/"
+},
+"Guillain-Barré syndrome": {
+  "display_name": "Guillain-Barré Syndrome",
+  "overview": "Guillain-Barré syndrome (GBS) is a rare neurological condition in which the immune system attacks the peripheral nerves. It can cause tingling, numbness and progressive muscle weakness, sometimes affecting the muscles responsible for breathing and swallowing.",
+  "common_symptoms": [
+    "Tingling or pins and needles in the feet and hands",
+    "Muscle weakness beginning in the legs",
+    "Weakness that spreads to the arms or upper body",
+    "Difficulty walking or climbing stairs",
+    "Nerve pain in the legs or back",
+    "Difficulty swallowing or speaking",
+    "Facial muscle weakness"
+  ],
+  "general_guidance": [
+    "Seek urgent medical assessment if Guillain-Barré syndrome is suspected.",
+    "People with suspected GBS generally require hospital assessment and close monitoring.",
+    "Healthcare professionals may monitor breathing, heart rate and blood pressure.",
+    "Treatment may include intravenous immunoglobulin or plasma exchange.",
+    "Follow specialist medical advice and rehabilitation recommendations."
+  ],
+  "urgent_warning_signs": [
+    "Difficulty breathing",
+    "Difficulty swallowing or choking",
+    "Rapidly worsening muscle weakness",
+    "Inability to walk or move normally",
+    "Facial weakness or difficulty speaking"
+  ],
+  "source_name": "World Health Organization (WHO)",
+  "source_url": "https://www.who.int/en/news-room/fact-sheets/detail/guillain-barr%C3%A9-syndrome"
+},
+"Acute laryngitis": {
+  "display_name": "Acute Laryngitis",
+  "overview": "Acute laryngitis is short-term inflammation of the voice box (larynx), causing irritation or swelling of the vocal cords. It commonly occurs with viral infections such as colds and usually improves within one to two weeks.",
+  "common_symptoms": [
+    "Hoarse or croaky voice",
+    "Temporary loss of voice",
+    "Sore throat",
+    "Dry or irritating cough",
+    "Frequent throat clearing",
+    "Throat discomfort",
+    "Sometimes mild fever"
+  ],
+  "general_guidance": [
+    "Rest your voice and avoid unnecessary talking.",
+    "Drink plenty of fluids.",
+    "Avoid shouting, whispering and smoking because they can strain or irritate the voice.",
+    "Avoid smoky and dusty environments.",
+    "Seek medical advice if symptoms do not improve after two weeks or repeatedly return.",
+    "A healthcare professional can assess persistent voice changes."
+  ],
+  "urgent_warning_signs": [
+    "Difficulty breathing",
+    "Inability to swallow",
+    "Drooling because of difficulty swallowing",
+    "High-pitched or noisy breathing",
+    "Rapidly worsening throat symptoms"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/laryngitis/"
+},
+"Croup": {
+  "display_name": "Croup",
+  "overview": "Croup is a respiratory condition that mainly affects babies and young children. It causes swelling around the voice box and windpipe, leading to a characteristic barking cough and sometimes noisy breathing. It is often associated with a viral infection.",
+  "common_symptoms": [
+    "Distinctive barking cough",
+    "Hoarse voice",
+    "High-pitched or rasping sound while breathing in",
+    "Runny or blocked nose",
+    "Fever",
+    "Difficulty breathing",
+    "Symptoms that may become worse at night"
+  ],
+  "general_guidance": [
+    "Seek medical advice if you think a child may have croup.",
+    "Keep the child calm because distress and crying can worsen breathing symptoms.",
+    "Keep the child comfortably upright.",
+    "Offer appropriate fluids.",
+    "Monitor breathing and general condition, including during the night.",
+    "Do not use steam inhalation as a treatment.",
+    "Follow a healthcare professional's advice about treatment."
+  ],
+  "urgent_warning_signs": [
+    "Struggling to breathe",
+    "Chest or abdomen pulling inward during breathing",
+    "Blue, grey or unusually pale lips or skin",
+    "Unusual sleepiness or difficulty waking",
+    "Drooling or difficulty swallowing",
+    "Severe restlessness accompanied by breathing difficulty"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/croup/"
+}
+
+,
+"PSVT": {
+  "display_name": "Paroxysmal Supraventricular Tachycardia (PSVT)",
+  "overview": "PSVT is a type of abnormal heart rhythm in which the heart suddenly starts beating much faster than normal. Episodes may begin and end abruptly and can last from a few minutes to several hours.",
+  "common_symptoms": [
+    "Sudden rapid heartbeat",
+    "Heart palpitations or fluttering",
+    "Dizziness or light-headedness",
+    "Shortness of breath",
+    "Chest discomfort",
+    "Weakness or tiredness",
+    "Feeling faint"
+  ],
+  "general_guidance": [
+    "Seek medical assessment if you experience repeated episodes of a suddenly rapid heartbeat.",
+    "An electrocardiogram (ECG) may be needed to identify the heart rhythm.",
+    "A healthcare professional can advise whether monitoring, medication or other treatment is appropriate.",
+    "Reduce possible triggers such as excessive caffeine if they appear to affect your symptoms.",
+    "Follow any heart-rhythm management plan provided by your healthcare professional."
+  ],
+  "urgent_warning_signs": [
+    "Rapid heartbeat accompanied by chest pain",
+    "Severe shortness of breath",
+    "Fainting or feeling close to fainting",
+    "Severe dizziness or collapse",
+    "An episode that lasts longer than usual and causes significant symptoms"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/supraventricular-tachycardia-svt/"
+},
+"Atrial fibrillation": {
+  "display_name": "Atrial Fibrillation",
+  "overview": "Atrial fibrillation (AF) is a heart rhythm condition in which the heartbeat becomes irregular and often faster than normal. It can increase the risk of blood clots and stroke, so proper medical assessment and management are important.",
+  "common_symptoms": [
+    "Irregular heartbeat",
+    "Heart palpitations",
+    "Rapid heartbeat",
+    "Shortness of breath",
+    "Tiredness or reduced energy",
+    "Dizziness or light-headedness",
+    "Chest discomfort",
+    "Reduced ability to exercise"
+  ],
+  "general_guidance": [
+    "Seek medical assessment if you notice a persistent or recurring irregular heartbeat.",
+    "An ECG is commonly used to confirm an abnormal heart rhythm.",
+    "A healthcare professional may assess your risk of stroke and discuss suitable treatment.",
+    "Treatment may include medicines to control heart rate or rhythm and reduce blood clot risk.",
+    "Take prescribed medicines as directed and attend recommended follow-up appointments."
+  ],
+  "urgent_warning_signs": [
+    "Chest pain or tightness",
+    "Severe shortness of breath",
+    "Fainting or collapse",
+    "Sudden weakness or numbness on one side of the body",
+    "Sudden difficulty speaking or understanding speech",
+    "Sudden loss or blurring of vision"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/atrial-fibrillation/"
+},
+"Bronchiectasis": {
+  "display_name": "Bronchiectasis",
+  "overview": "Bronchiectasis is a long-term lung condition in which the airways become abnormally widened and damaged. This can cause mucus to build up, increasing the risk of repeated chest infections. Treatment can help manage symptoms and reduce complications.",
+  "common_symptoms": [
+    "Persistent cough",
+    "Coughing up mucus or phlegm",
+    "Repeated chest infections",
+    "Shortness of breath",
+    "Wheezing",
+    "Chest discomfort",
+    "Fatigue",
+    "Occasionally coughing up blood"
+  ],
+  "general_guidance": [
+    "Consult a healthcare professional if you have a persistent cough or repeated chest infections.",
+    "A healthcare professional may recommend sputum testing, lung function tests or chest imaging.",
+    "A respiratory physiotherapist may teach techniques to help clear mucus from the lungs.",
+    "Follow the treatment plan prescribed for any chest infection.",
+    "Avoid smoking and follow recommended vaccination advice.",
+    "Attend regular medical reviews to monitor the condition."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "Coughing up more than small streaks of blood",
+    "Rapid worsening of breathing symptoms",
+    "Chest pain with fever or worsening infection symptoms",
+    "Blue or grey lips or skin"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/bronchiectasis/"
+},
+"Chagas": {
+  "display_name": "Chagas Disease",
+  "overview": "Chagas disease, also known as American trypanosomiasis, is an infection caused by the parasite Trypanosoma cruzi. It is mainly transmitted by infected triatomine insects, but can also spread through contaminated food or drink, blood transfusions, organ transplantation and from mother to baby. Many people have mild or no symptoms initially.",
+  "common_symptoms": [
+    "Fever",
+    "Headache",
+    "Swollen lymph nodes",
+    "Muscle pain",
+    "Fatigue",
+    "Swelling around the site of infection",
+    "Swelling of one eyelid in some cases",
+    "Abdominal or chest discomfort"
+  ],
+  "general_guidance": [
+    "Seek medical assessment if you may have been exposed to Chagas disease.",
+    "Tell your healthcare professional about relevant travel, residence or exposure history.",
+    "Blood tests may be recommended to check for infection.",
+    "Antiparasitic treatment is available and is generally most effective when started early.",
+    "People with confirmed infection may need follow-up to assess heart or digestive complications.",
+    "Follow specialist medical advice and prescribed treatment."
+  ],
+  "urgent_warning_signs": [
+    "Chest pain",
+    "Severe shortness of breath",
+    "Fainting or collapse",
+    "Severe or persistent palpitations",
+    "Sudden severe abdominal symptoms",
+    "Confusion or seizures"
+  ],
+  "source_name": "World Health Organization (WHO)",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/chagas-disease-%28american-trypanosomiasis%29"
+},
+"Scombroid food poisoning": {
+  "display_name": "Scombroid Food Poisoning",
+  "overview": "Scombroid poisoning is a type of food poisoning caused by eating fish that contains high levels of histamine due to improper storage or refrigeration. Symptoms often begin within minutes to an hour after eating contaminated fish and can resemble an allergic reaction.",
+  "common_symptoms": [
+    "Flushing of the face or upper body",
+    "Headache",
+    "Itching or skin rash",
+    "Heart palpitations",
+    "Abdominal cramps",
+    "Diarrhea",
+    "Nausea",
+    "Blurred vision"
+  ],
+  "general_guidance": [
+    "Seek medical advice if symptoms develop after eating fish.",
+    "Tell the healthcare professional what fish was eaten and when symptoms started.",
+    "A healthcare professional may recommend antihistamine treatment.",
+    "Do not eat more of the suspected contaminated fish.",
+    "Other people who ate the same fish may also need medical assessment.",
+    "Prevent scombroid poisoning by ensuring fish is stored and refrigerated properly."
+  ],
+  "urgent_warning_signs": [
+    "Difficulty breathing",
+    "Swelling of the tongue or throat",
+    "Severe dizziness or fainting",
+    "Chest pain or severe palpitations",
+    "Signs of low blood pressure or collapse"
+  ],
+  "source_name": "Centers for Disease Control and Prevention (CDC)",
+  "source_url": "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/food-poisoning-from-marine-toxins.html"
+}
+
+,
+"Myocarditis": {
+  "display_name": "Myocarditis",
+  "overview": "Myocarditis is inflammation of the heart muscle (myocardium). It can affect the heart's ability to pump blood and may occur after an infection or due to other causes. Severity ranges from mild to serious.",
+  "common_symptoms": [
+    "Chest pain or tightness",
+    "Shortness of breath",
+    "Unusual tiredness",
+    "Rapid or irregular heartbeat",
+    "Palpitations",
+    "Fever",
+    "Muscle or joint aches",
+    "Dizziness or light-headedness"
+  ],
+  "general_guidance": [
+    "Seek prompt medical assessment if myocarditis is suspected.",
+    "A healthcare professional may recommend an ECG, blood tests, echocardiogram or cardiac MRI.",
+    "Treatment depends on the cause and severity of the condition.",
+    "Follow medical advice about physical activity and exercise; strenuous exercise may need to be avoided during active inflammation.",
+    "Attend recommended follow-up appointments to monitor heart function."
+  ],
+  "urgent_warning_signs": [
+    "Unexplained chest pain",
+    "Severe shortness of breath",
+    "Fainting or collapse",
+    "Rapid or irregular heartbeat accompanied by dizziness",
+    "Sudden severe weakness"
+  ],
+  "source_name": "British Heart Foundation",
+  "source_url": "https://www.bhf.org.uk/informationsupport/conditions/myocarditis"
+},
+"Larygospasm": {
+  "display_name": "Laryngospasm",
+  "overview": "Laryngospasm is a sudden involuntary tightening or closure of the vocal cords. This can temporarily restrict airflow and make it difficult to breathe or speak. Possible triggers include acid reflux, airway irritation and certain medical procedures.",
+  "common_symptoms": [
+    "Sudden difficulty breathing in",
+    "Feeling of choking or suffocation",
+    "Tightness in the throat",
+    "Difficulty speaking during an episode",
+    "High-pitched breathing sound",
+    "Sudden coughing",
+    "Temporary hoarseness"
+  ],
+  "general_guidance": [
+    "Seek medical assessment for repeated or unexplained episodes.",
+    "A healthcare professional may assess possible triggers such as acid reflux or airway conditions.",
+    "An ENT specialist may examine the vocal cords when necessary.",
+    "Follow professional advice about managing any underlying condition.",
+    "Do not assume that every episode of breathing difficulty is laryngospasm."
+  ],
+  "urgent_warning_signs": [
+    "Persistent inability to breathe",
+    "Inability to speak because of breathing difficulty",
+    "Blue or grey lips or skin",
+    "Loss of consciousness",
+    "Severe or persistent airway obstruction"
+  ],
+  "source_name": "Mayo Clinic",
+  "source_url": "https://www.mayoclinic.org/diseases-conditions/gerd/expert-answers/laryngospasm/faq-20058269"
+},
+"Acute dystonic reactions": {
+  "display_name": "Acute Dystonic Reactions",
+  "overview": "Acute dystonic reactions are sudden, involuntary muscle contractions that can cause abnormal movements or sustained postures. They are commonly associated with certain medicines, including some antipsychotic and anti-nausea medicines, particularly after starting treatment or increasing a dose.",
+  "common_symptoms": [
+    "Involuntary neck muscle contractions",
+    "Unusual twisting or turning of the head",
+    "Jaw tightness or difficulty opening the mouth",
+    "Eyes turning upward involuntarily",
+    "Abnormal facial movements",
+    "Muscle spasms in the arms or legs",
+    "Difficulty speaking or swallowing"
+  ],
+  "general_guidance": [
+    "Seek prompt medical assessment if sudden involuntary muscle contractions develop.",
+    "Tell the healthcare professional about all recently started medicines and dose changes.",
+    "Do not take additional doses of a suspected triggering medicine until you have received medical advice.",
+    "A healthcare professional can assess the reaction and decide on appropriate treatment.",
+    "Record the suspected medicine reaction and discuss it with your prescribing healthcare professional."
+  ],
+  "urgent_warning_signs": [
+    "Difficulty breathing",
+    "Throat or laryngeal muscle spasms",
+    "Difficulty swallowing saliva",
+    "Severe difficulty speaking",
+    "Rapidly worsening muscle spasms"
+  ],
+  "source_name": "NCBI Bookshelf - StatPearls",
+  "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK531466/"
+},
+"Localized edema": {
+  "display_name": "Localized Edema",
+  "overview": "Localized edema refers to swelling caused by excess fluid collecting in a particular part of the body. It can affect areas such as the feet, ankles, legs, hands or face. Possible causes include injury, infection, inflammation, blood clots and problems affecting circulation.",
+  "common_symptoms": [
+    "Swelling in a specific body area",
+    "Tight or stretched skin",
+    "Discomfort or tenderness",
+    "Reduced movement in the affected area",
+    "Skin that may appear shiny",
+    "A temporary indentation after pressing the swollen area",
+    "Redness or warmth in some cases"
+  ],
+  "general_guidance": [
+    "Seek medical assessment if swelling is unexplained, persistent or worsening.",
+    "The appropriate treatment depends on the underlying cause.",
+    "Avoid remaining seated or standing in the same position for prolonged periods.",
+    "Gentle movement or elevating the affected limb may help some types of swelling, when appropriate.",
+    "Do not assume unexplained swelling is harmless, particularly if it affects only one limb."
+  ],
+  "urgent_warning_signs": [
+    "Sudden or severe swelling",
+    "Swelling accompanied by severe pain, redness or warmth",
+    "Swelling in one leg accompanied by breathlessness",
+    "Chest pain or tightness",
+    "Coughing up blood",
+    "Swelling of the face, lips or tongue with breathing difficulty"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/Oedema/"
+},
+"SLE": {
+  "display_name": "Systemic Lupus Erythematosus (SLE)",
+  "overview": "Systemic lupus erythematosus (SLE) is a long-term autoimmune condition in which the immune system mistakenly attacks healthy tissues. It can affect several parts of the body, including the joints, skin, kidneys, heart and lungs. Symptoms can vary and often occur in flare-ups.",
+  "common_symptoms": [
+    "Joint pain and swelling",
+    "Muscle pain",
+    "Persistent fatigue",
+    "Skin rashes, sometimes across the cheeks and nose",
+    "Sensitivity to sunlight",
+    "Fever",
+    "Mouth ulcers",
+    "Hair loss",
+    "Headaches"
+  ],
+  "general_guidance": [
+    "Consult a healthcare professional if you experience persistent joint pain, unexplained rashes or recurring fatigue.",
+    "Diagnosis may involve medical history, physical examination, blood tests and urine tests.",
+    "Treatment depends on the organs affected and the severity of the condition.",
+    "Protect your skin from excessive sunlight if you experience photosensitivity.",
+    "Follow your prescribed treatment and attend regular medical reviews.",
+    "Do not stop prescribed medication without medical advice."
+  ],
+  "urgent_warning_signs": [
+    "Chest pain or severe difficulty breathing",
+    "Severe headache with confusion or neurological changes",
+    "Seizures",
+    "Sudden weakness or loss of movement",
+    "Significant reduction in urine output",
+    "Sudden swelling with breathing difficulty"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/Lupus/"
+}
+
+,
+"Unstable angina": {
+  "display_name": "Unstable Angina",
+  "overview": "Unstable angina is a serious heart condition in which the heart muscle does not receive enough blood and oxygen. Chest discomfort may occur unexpectedly, at rest, or become more frequent, severe or prolonged. It is an acute coronary syndrome and requires emergency medical assessment.",
+  "common_symptoms": [
+    "Sudden chest pain or pressure",
+    "Chest discomfort occurring at rest",
+    "Pain that lasts longer than usual",
+    "Pain that becomes more frequent or severe",
+    "Pain spreading to the arms, shoulders, neck, jaw or back",
+    "Shortness of breath",
+    "Sweating, nausea or dizziness"
+  ],
+  "general_guidance": [
+    "Suspected unstable angina requires immediate emergency medical assessment.",
+    "Call emergency services. In India, call 112.",
+    "Stop physical activity and rest while waiting for emergency help.",
+    "Do not drive yourself to the hospital.",
+    "Hospital assessment may include an ECG and blood tests to check for a heart attack.",
+    "Follow the treatment and monitoring plan provided by the cardiac care team."
+  ],
+  "urgent_warning_signs": [
+    "New or worsening chest pain",
+    "Chest pain occurring at rest",
+    "Chest pressure that does not settle",
+    "Pain spreading to the arm, jaw, neck or back",
+    "Chest pain accompanied by sweating or nausea",
+    "Severe breathlessness, fainting or collapse"
+  ],
+  "source_name": "American Heart Association",
+  "source_url": "https://www.heart.org/en/health-topics/heart-attack/angina-chest-pain/unstable-angina"
+},
+"Stable angina": {
+  "display_name": "Stable Angina",
+  "overview": "Stable angina is chest discomfort caused by reduced blood flow to the heart muscle. It commonly follows a predictable pattern and may occur during physical activity, emotional stress or exposure to cold. It often improves with rest or prescribed angina medication.",
+  "common_symptoms": [
+    "Chest pressure, tightness or squeezing",
+    "Chest discomfort during physical activity",
+    "Pain spreading to the arms, shoulders, neck or jaw",
+    "Shortness of breath",
+    "Dizziness or light-headedness",
+    "Sweating",
+    "Nausea or unusual tiredness"
+  ],
+  "general_guidance": [
+    "Arrange medical assessment if you experience recurring chest discomfort.",
+    "A healthcare professional may recommend an ECG and other heart investigations.",
+    "Follow your prescribed angina action plan and use prescribed medication as directed.",
+    "Stop the activity that triggers symptoms and rest.",
+    "Discuss suitable exercise, diet and lifestyle changes with your healthcare professional.",
+    "Seek emergency care if chest pain becomes new, more severe, prolonged or occurs at rest."
+  ],
+  "urgent_warning_signs": [
+    "Chest pain that is new or more severe than usual",
+    "Chest pain occurring at rest",
+    "Chest discomfort that does not improve with rest or prescribed medication",
+    "Pain spreading to the arm, jaw, neck or back",
+    "Chest pain accompanied by sweating, nausea or severe breathlessness",
+    "Fainting or collapse"
+  ],
+  "source_name": "National Heart, Lung, and Blood Institute (NHLBI)",
+  "source_url": "https://www.nhlbi.nih.gov/health/angina/types"
+},
+"Ebola": {
+  "display_name": "Ebola Disease",
+  "overview": "Ebola disease is a rare but severe infectious illness caused by viruses belonging to the orthoebolavirus group. It can spread through direct contact with the blood or body fluids of an infected person who is showing symptoms, or contaminated materials. Symptoms usually begin between 2 and 21 days after exposure. Early symptoms can resemble other common infections, so exposure history and laboratory testing are important.",
+  "common_symptoms": [
+    "Sudden fever",
+    "Severe weakness and fatigue",
+    "Muscle and joint pain",
+    "Severe headache",
+    "Sore throat",
+    "Vomiting",
+    "Diarrhea",
+    "Abdominal pain",
+    "Skin rash",
+    "Unexplained bleeding in some cases"
+  ],
+  "general_guidance": [
+    "If you have compatible symptoms after possible exposure to Ebola, contact public health or medical authorities immediately.",
+    "Tell healthcare professionals about relevant travel, contact and exposure history.",
+    "Avoid direct contact with other people's blood or body fluids.",
+    "Do not visit healthcare facilities without first informing them of suspected exposure, so appropriate infection-control arrangements can be made.",
+    "Laboratory testing is necessary to confirm Ebola disease.",
+    "Early supportive medical care is important."
+  ],
+  "urgent_warning_signs": [
+    "Fever following possible exposure to Ebola",
+    "Severe or persistent vomiting or diarrhea",
+    "Unexplained bleeding",
+    "Severe dehydration",
+    "Confusion or seizures",
+    "Difficulty breathing or collapse"
+  ],
+  "source_name": "World Health Organization (WHO)",
+  "source_url": "https://www.who.int/news-room/fact-sheets/detail/ebola-disease"
+},
+"Acute pulmonary edema": {
+  "display_name": "Acute Pulmonary Edema",
+  "overview": "Acute pulmonary edema is a sudden buildup of fluid in the lungs that interferes with normal breathing and oxygen exchange. It is often associated with heart problems, including acute heart failure, and requires immediate hospital assessment.",
+  "common_symptoms": [
+    "Sudden severe shortness of breath",
+    "Difficulty breathing while lying down",
+    "Rapid or laboured breathing",
+    "Cough with frothy or pink-tinged sputum",
+    "A feeling of suffocation or drowning",
+    "Wheezing or gurgling breathing sounds",
+    "Anxiety or restlessness",
+    "Cold or clammy skin"
+  ],
+  "general_guidance": [
+    "Suspected acute pulmonary edema is a medical emergency.",
+    "Call emergency services immediately. In India, call 112.",
+    "Do not attempt to manage sudden severe breathing difficulty at home.",
+    "Keep the person as comfortable as possible while waiting for emergency assistance.",
+    "Hospital treatment may include oxygen or breathing support and treatment of the underlying cause.",
+    "Follow the medical team's instructions and monitoring plan."
+  ],
+  "urgent_warning_signs": [
+    "Severe or sudden difficulty breathing",
+    "Pink or blood-tinged frothy sputum",
+    "Blue or grey lips or skin",
+    "Chest pain or pressure",
+    "Confusion or reduced consciousness",
+    "Fainting or collapse"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/heart-failure/"
+},
+"Pulmonary embolism": {
+  "display_name": "Pulmonary Embolism",
+  "overview": "A pulmonary embolism occurs when a blood clot blocks a blood vessel in the lungs. The clot often travels from a deep vein in the leg or, less commonly, another part of the body. It can be life-threatening and requires urgent medical treatment.",
+  "common_symptoms": [
+    "Sudden shortness of breath",
+    "Chest pain that may worsen when breathing in",
+    "Coughing, sometimes with blood",
+    "Rapid heartbeat",
+    "Dizziness or light-headedness",
+    "Pain or swelling in one leg",
+    "Anxiety or unexplained sweating"
+  ],
+  "general_guidance": [
+    "Suspected pulmonary embolism requires urgent hospital assessment.",
+    "Call emergency services immediately if sudden breathlessness or chest pain occurs. In India, call 112.",
+    "Do not drive yourself to the hospital.",
+    "A healthcare professional may recommend blood tests and imaging to investigate a possible clot.",
+    "Treatment commonly involves anticoagulant medicines prescribed by a healthcare professional.",
+    "Take prescribed medicines exactly as directed and attend follow-up appointments."
+  ],
+  "urgent_warning_signs": [
+    "Sudden severe difficulty breathing",
+    "Chest pain or upper back pain",
+    "Coughing up blood",
+    "Very rapid heartbeat",
+    "Fainting or collapse",
+    "Sudden breathlessness with one-sided leg swelling"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/pulmonary-embolism/"
+}
+
+,
+"Panic attack": {
+  "display_name": "Panic Attack",
+  "overview": "A panic attack is a sudden episode of intense fear or discomfort accompanied by physical and emotional symptoms. It can occur unexpectedly or in response to a stressful situation. Similar symptoms can also occur in medical conditions, so a first or unusual episode should not automatically be assumed to be a panic attack.",
+  "common_symptoms": [
+    "Sudden intense fear or anxiety",
+    "Rapid or pounding heartbeat",
+    "Sweating or trembling",
+    "Shortness of breath or rapid breathing",
+    "Chest discomfort",
+    "Dizziness or feeling faint",
+    "Nausea",
+    "Chills or hot flushes",
+    "Tingling or numbness",
+    "Fear of losing control or dying"
+  ],
+  "general_guidance": [
+    "Try to remain in a safe and comfortable place.",
+    "Breathe slowly and gently if you are able to do so.",
+    "Remind yourself that the intense feeling may pass.",
+    "Speak with a healthcare professional if panic attacks recur or affect daily activities.",
+    "Cognitive behavioural therapy (CBT) is one treatment option for panic disorder.",
+    "A healthcare professional should assess new or unexplained physical symptoms before attributing them to anxiety."
+  ],
+  "urgent_warning_signs": [
+    "New, severe or persistent chest pain",
+    "Severe difficulty breathing",
+    "Fainting or loss of consciousness",
+    "Confusion or sudden weakness",
+    "Symptoms that are significantly different from previous episodes",
+    "Thoughts of self-harm or immediate risk of harm"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/mental-health/conditions/panic-disorder/"
+},
+"Bronchospasm / acute asthma exacerbation": {
+  "display_name": "Bronchospasm / Acute Asthma Exacerbation",
+  "overview": "Bronchospasm occurs when the muscles surrounding the airways tighten, narrowing the passages through which air moves. During an asthma exacerbation, airway inflammation and narrowing can make breathing difficult. An asthma attack can range from mild to life-threatening.",
+  "common_symptoms": [
+    "Wheezing",
+    "Shortness of breath",
+    "Chest tightness",
+    "Coughing",
+    "Difficulty breathing out",
+    "Rapid breathing",
+    "Symptoms that worsen at night or early in the morning"
+  ],
+  "general_guidance": [
+    "Follow the personal asthma action plan provided by a healthcare professional.",
+    "Use prescribed reliever medication according to the action plan.",
+    "Sit upright and try to remain calm during breathing difficulty.",
+    "Avoid known triggers when possible, such as smoke, dust or other identified irritants.",
+    "Arrange medical review if symptoms are worsening or prescribed medication is needed more frequently.",
+    "Seek emergency assistance if symptoms are severe or do not improve according to the action plan."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "Unable to speak in complete sentences because of breathlessness",
+    "Symptoms worsening rapidly",
+    "Reliever medication not providing the expected improvement",
+    "Blue or grey lips or skin",
+    "Drowsiness, confusion or collapse"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/asthma/"
+},
+"Acute COPD exacerbation / infection": {
+  "display_name": "Acute COPD Exacerbation / Infection",
+  "overview": "Chronic obstructive pulmonary disease (COPD) is a group of lung conditions that cause persistent breathing difficulties. An exacerbation, or flare-up, is a sudden worsening of usual symptoms. Respiratory infections can trigger flare-ups, although other factors may also contribute.",
+  "common_symptoms": [
+    "Increased shortness of breath",
+    "Worsening persistent cough",
+    "Increased mucus or phlegm production",
+    "Change in phlegm colour or thickness",
+    "Increased wheezing",
+    "Chest tightness",
+    "Fever or symptoms of a respiratory infection",
+    "Increased tiredness"
+  ],
+  "general_guidance": [
+    "Contact a healthcare professional when symptoms suddenly worsen.",
+    "Follow the COPD action plan provided by your healthcare team.",
+    "Use prescribed inhalers and other medicines only as directed.",
+    "Avoid cigarette smoke and other respiratory irritants.",
+    "Seek medical assessment if you notice increased breathlessness or changes in mucus.",
+    "Severe flare-ups may require urgent hospital treatment."
+  ],
+  "urgent_warning_signs": [
+    "Severe or rapidly worsening breathlessness",
+    "Difficulty speaking because of breathing problems",
+    "Blue or grey lips or skin",
+    "Confusion or unusual drowsiness",
+    "Chest pain",
+    "Coughing up blood",
+    "Collapse or loss of consciousness"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/"
+},
+"Pulmonary neoplasm": {
+  "display_name": "Pulmonary Neoplasm",
+  "overview": "A pulmonary neoplasm is an abnormal growth or tumour in the lung. It may be benign or malignant. Lung cancer is a malignant pulmonary neoplasm. Symptoms vary depending on the type, location and stage of the growth, and some people may have no symptoms in the early stages.",
+  "common_symptoms": [
+    "Persistent cough that does not improve",
+    "Coughing up blood",
+    "Shortness of breath",
+    "Chest or shoulder pain",
+    "Repeated chest infections",
+    "Persistent wheezing",
+    "Unexplained weight loss",
+    "Reduced appetite",
+    "Persistent tiredness",
+    "Hoarse voice"
+  ],
+  "general_guidance": [
+    "Arrange medical assessment for a persistent cough, unexplained weight loss or other concerning symptoms.",
+    "A healthcare professional may recommend chest imaging and further investigations.",
+    "A suspected lung tumour requires appropriate specialist assessment.",
+    "Avoid tobacco smoke and seek support to stop smoking if needed.",
+    "Follow the investigation and treatment plan recommended by the healthcare team.",
+    "Symptoms alone cannot establish whether a lung growth is benign or malignant."
+  ],
+  "urgent_warning_signs": [
+    "Severe difficulty breathing",
+    "Significant or repeated coughing up of blood",
+    "Severe chest pain",
+    "Sudden confusion or collapse",
+    "Rapid worsening of breathing symptoms"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/lung-cancer/symptoms/"
+},
+"Possible NSTEMI / STEMI": {
+  "display_name": "Possible NSTEMI / STEMI",
+  "overview": "NSTEMI and STEMI are types of heart attack, also called myocardial infarction. They occur when blood flow to part of the heart muscle is significantly reduced or blocked. STEMI is generally associated with a complete blockage of a coronary artery, while NSTEMI involves a different pattern of reduced blood flow. Both require immediate emergency medical assessment.",
+  "common_symptoms": [
+    "Chest pain, pressure or tightness",
+    "Pain spreading to one or both arms",
+    "Pain in the jaw, neck, back or upper abdomen",
+    "Shortness of breath",
+    "Cold sweating",
+    "Nausea or vomiting",
+    "Dizziness or light-headedness",
+    "Unusual tiredness or weakness",
+    "Rapid or irregular heartbeat"
+  ],
+  "general_guidance": [
+    "Suspected heart attack is a medical emergency. Call emergency services immediately. In India, call 112.",
+    "Do not wait for symptoms to disappear or attempt to diagnose the type of heart attack at home.",
+    "Stop physical activity and follow instructions from emergency medical personnel.",
+    "Do not drive yourself to the hospital.",
+    "Hospital evaluation may include an ECG, blood tests such as troponin, and imaging or other investigations.",
+    "Treatment must be determined by the emergency and cardiac care team."
+  ],
+  "urgent_warning_signs": [
+    "Chest pressure, squeezing or pain lasting more than a few minutes or returning repeatedly",
+    "Chest discomfort spreading to the arms, jaw, neck or back",
+    "Sudden shortness of breath",
+    "Cold sweating with chest discomfort",
+    "Nausea or vomiting accompanied by chest discomfort",
+    "Fainting, collapse or severe weakness"
+  ],
+  "source_name": "American Heart Association",
+  "source_url": "https://www.heart.org/health-topics/heart-attack/warning-signs-of-a-heart-attack"
+}
+
+,
+"Sarcoidosis": {
+  "display_name": "Sarcoidosis",
+  "overview": "Sarcoidosis is an inflammatory condition in which small clusters of immune cells, called granulomas, develop in different organs. It most commonly affects the lungs and lymph nodes, but can also affect the skin, eyes, heart and other organs. Symptoms vary depending on the organs involved.",
+  "common_symptoms": [
+    "Persistent dry cough",
+    "Shortness of breath",
+    "Chest discomfort",
+    "Swollen lymph nodes",
+    "Tender skin bumps or rashes",
+    "Persistent tiredness",
+    "Fever",
+    "Joint pain or swelling",
+    "Redness or pain in the eyes",
+    "Abnormal heartbeat or palpitations"
+  ],
+  "general_guidance": [
+    "Consult a healthcare professional for persistent respiratory symptoms, unexplained fatigue or unusual skin changes.",
+    "Diagnosis may require imaging, blood tests, lung function tests or a biopsy.",
+    "Not everyone with sarcoidosis requires medication; management depends on the organs affected and disease severity.",
+    "Attend recommended follow-up appointments to monitor organ function.",
+    "Avoid smoking and discuss suitable lifestyle measures with your healthcare professional.",
+    "Do not start steroid or immune-suppressing medicines without medical supervision."
+  ],
+  "urgent_warning_signs": [
+    "Sudden or severe difficulty breathing",
+    "Fainting or collapse",
+    "New irregular heartbeat accompanied by dizziness or weakness",
+    "Sudden vision changes or severe eye pain",
+    "Seizures or sudden neurological symptoms"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/sarcoidosis/"
+},
+"Pancreatic neoplasm": {
+  "display_name": "Pancreatic Neoplasm",
+  "overview": "A pancreatic neoplasm is an abnormal growth in the pancreas. It may be benign or malignant. Pancreatic cancer is a malignant pancreatic neoplasm. Symptoms may be absent in the early stages and can overlap with several digestive conditions. A medical assessment is required to determine the nature of a growth.",
+  "common_symptoms": [
+    "Pain in the upper abdomen",
+    "Pain that may spread to the back",
+    "Unexplained weight loss",
+    "Loss of appetite",
+    "Yellowing of the skin or eyes (jaundice)",
+    "Dark urine or pale stools",
+    "Nausea or vomiting",
+    "Changes in bowel habits",
+    "Indigestion or bloating",
+    "Persistent tiredness"
+  ],
+  "general_guidance": [
+    "Seek medical assessment for unexplained weight loss, persistent abdominal pain or jaundice.",
+    "A healthcare professional may recommend blood tests and imaging investigations.",
+    "Further assessment or a biopsy may be required to identify the type of pancreatic growth.",
+    "Follow the investigation and treatment plan provided by the specialist team.",
+    "Symptoms alone cannot confirm pancreatic cancer or distinguish benign from malignant growths.",
+    "Do not delay medical assessment if symptoms persist or worsen."
+  ],
+  "urgent_warning_signs": [
+    "Yellowing of the skin or whites of the eyes",
+    "Severe or worsening abdominal pain",
+    "Persistent vomiting or inability to keep fluids down",
+    "Fainting or severe weakness",
+    "Rapid deterioration in general health"
+  ],
+  "source_name": "National Cancer Institute (NCI)",
+  "source_url": "https://www.cancer.gov/types/pancreatic/symptoms"
+},
+"Pericarditis": {
+  "display_name": "Pericarditis",
+  "overview": "Pericarditis is inflammation of the pericardium, the protective sac surrounding the heart. It commonly causes sharp or stabbing chest pain that may worsen during deep breathing or while lying down and may improve when sitting up and leaning forward. Chest pain must be medically assessed because it can also indicate a heart attack or another serious condition.",
+  "common_symptoms": [
+    "Sharp or stabbing chest pain",
+    "Chest pain that worsens when breathing deeply",
+    "Pain that worsens when lying down",
+    "Pain that improves when sitting up or leaning forward",
+    "Pain spreading to the shoulders, arms or abdomen",
+    "Fever",
+    "Cough",
+    "Shortness of breath",
+    "Heart palpitations",
+    "General weakness or fatigue"
+  ],
+  "general_guidance": [
+    "Seek medical assessment for chest pain, even if it appears to improve with a change in posture.",
+    "A healthcare professional may recommend an ECG, blood tests, chest X-ray or echocardiogram.",
+    "Treatment depends on the cause and may involve prescribed anti-inflammatory medicines or other treatment.",
+    "Avoid strenuous physical activity until a healthcare professional advises that it is safe to resume.",
+    "Follow the prescribed treatment and monitoring plan.",
+    "Do not assume chest pain is pericarditis without appropriate medical evaluation."
+  ],
+  "urgent_warning_signs": [
+    "Sudden or severe chest pain",
+    "Chest pain spreading to the arms, back, neck or jaw",
+    "Chest tightness or heaviness",
+    "Chest pain accompanied by sweating, nausea or shortness of breath",
+    "Fainting or collapse",
+    "Severe difficulty breathing"
+  ],
+  "source_name": "NHS",
+  "source_url": "https://www.nhs.uk/conditions/pericarditis/"
+}
+
+}
+
+

@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Find Doctors - MediSense AI</title>
+
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="find-doctors.css">
+
+    <!-- Leaflet Map CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""
+    >
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+/>
+
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+/>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="back-link" aria-label="Go back">
+                ←
+            </a>
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">♡</span>
+
+                <span>
+                    <strong>MediSense AI</strong>
+                    <small>Your Smart Health Companion</small>
+                </span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                <li><a href="medicine-guide.html">Medicine Guide</a></li>
+                <li><a href="home-remedies.html">Home Remedies</a></li>
+                <li>
+                    <a href="find-doctors.html" class="active">
+                        Find Doctors
+                    </a>
+                </li>
+            </ul>
+
+            <a href="symptom-checker.html" class="nav-button">
+                Check Symptoms →
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Page Heading -->
+        <section class="doctor-hero">
+
+            <span class="eyebrow">DOCTOR DISCOVERY</span>
+
+            <h1>Find the Right Doctor Near You</h1>
+
+            <p>
+                Discover healthcare professionals around your location
+                and explore nearby clinics and hospitals.
+            </p>
+
+        </section>
+
+
+        <!-- Doctor Search -->
+        <section class="doctor-search-section" id="doctor-search-section">
+
+            <div class="search-row">
+
+                <!-- Location Input -->
+                <div class="location-search">
+
+                    <span>📍</span>
+
+                    <input
+                        type="text"
+                        id="location-input"
+                        placeholder="Enter Pincode or City"
+                        aria-label="Enter city or PIN code"
+                    >
+
+                    <button
+                        type="button"
+                        id="current-location-btn"
+                    >
+                        ◈ Use Current Location
+                    </button>
+
+                </div>
+
+
+                <!-- Specialty Selection -->
+                <div class="specialty-search">
+
+                    <span>♟</span>
+
+                    <select id="specialty-select">
+
+                        <option value="">
+                            Search Specialty (e.g. Cardiologist)
+                        </option>
+
+                        <option value="General Physician">
+                            General Physician
+                        </option>
+
+                        <option value="Cardiologist">
+                            Cardiologist
+                        </option>
+
+                        <option value="Dermatologist">
+                            Dermatologist
+                        </option>
+
+                        <option value="Neurologist">
+                            Neurologist
+                        </option>
+
+                        <option value="Orthopedic">
+                            Orthopedic
+                        </option>
+
+                        <option value="Dentist">
+                            Dentist
+                        </option>
+
+                        <option value="Pediatrician">
+                            Pediatrician
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Search Button -->
+                <button
+                    type="button"
+                    class="search-button"
+                    id="doctor-search-btn"
+                >
+                    Search
+                </button>
+
+            </div>
+
+
+            <!-- Specialty Filters -->
+            <div
+                class="specialty-filters"
+                id="specialty-filters"
+            >
+
+                <button
+                    type="button"
+                    class="filter-chip active"
+                    data-specialty=""
+                >
+                    All Doctors
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-chip"
+                    data-specialty="General Physician"
+                >
+                    General Physician
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-chip"
+                    data-specialty="Cardiologist"
+                >
+                    Cardiologist
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-chip"
+                    data-specialty="Dermatologist"
+                >
+                    Dermatologist
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-chip"
+                    data-specialty="Neurologist"
+                >
+                    Neurologist
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-chip"
+                    data-specialty="Orthopedic"
+                >
+                    Orthopedic
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-chip"
+                    data-specialty="Dentist"
+                >
+                    Dentist
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-chip"
+                    data-specialty="Pediatrician"
+                >
+                    Pediatrician
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Nearby Healthcare Facilities and Map -->
+        <section class="nearby-doctors-section">
+
+            <div class="doctors-list">
+
+                <!-- Results Heading -->
+                <div class="doctors-heading">
+<h2>
+    Nearby Healthcare Facilities
+    <span id="doctor-count">(0 results)</span>
+</h2>
+
+                    <button
+                        type="button"
+                        id="sort-distance-btn"
+                    >
+                        Sort by Distance
+                    </button>
+
+                </div>
+
+
+                <!-- Dynamic Search Results -->
+                <div
+                    id="doctor-results"
+                    aria-live="polite"
+                >
+
+                    <div class="doctor-card">
+
+                        <h3>Search for Nearby Healthcare Facilities</h3>
+
+                        <p>
+                            Enter a city or PIN code and select Search
+                            to discover nearby hospitals and clinics.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Interactive Leaflet Map -->
+            <div
+                class="doctor-map"
+                id="doctor-map"
+                role="region"
+                aria-label="Interactive map showing nearby healthcare facilities"
+            ></div>
+
+        </section>
+
+
+        <!-- Quality Assurance -->
+        <section class="quality-section">
+
+            <div class="quality-content">
+
+                <span class="eyebrow">
+                    QUALITY ASSURANCE
+                </span>
+
+                <h2>
+                    Your Health Deserves the Right Care
+                </h2>
+
+                <p>
+                    We aim to help you discover healthcare professionals
+                    and clinics so you can make informed choices about care.
+                </p>
+
+              <a href="#doctor-search-section" id="find-specialist-btn">
+    Find a Specialist
+</a>
+
+            </div>
+
+
+            <div class="quality-image">
+
+                <!-- Figma illustration can be added later -->
+                <div class="quality-image-placeholder">
+                    Doctor &amp; Patient
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Health Disclaimer -->
+        <section class="health-disclaimer">
+
+            <span>ⓘ</span>
+
+            <div>
+
+                <h3>Important Health Disclaimer</h3>
+
+                <p>
+                    MediSense AI is a decision-support tool, not a replacement
+                    for professional medical diagnosis. For serious or emergency
+                    symptoms, seek professional medical help immediately.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-brand">
+
+            <h3>♡ MediSense AI</h3>
+
+            <p>Your Smart Health Companion</p>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>© 2026 MediSense AI. All rights reserved.</p>
+
+            <p>Built with care for a healthier India.</p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Leaflet Map JavaScript -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""
+    ></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <!-- Find Doctors JavaScript -->
+    <script src="find-doctors.js"></script>
+
+</body>
+
+</html>

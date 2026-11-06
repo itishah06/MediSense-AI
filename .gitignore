@@ -1,0 +1,14 @@
+# Raw datasets
+data/raw/
+*.zip
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Jupyter
+.ipynb_checkpoints/

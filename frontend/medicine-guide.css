@@ -1,0 +1,470 @@
+
+/* Global Styles */
+:root {
+    --primary: #123f49;
+    --secondary: #16bba9;
+    --mint: #ddf5f0;
+    --light-bg: #f3f9f7;
+    --white: #ffffff;
+    --text: #244b55;
+    --muted: #8192a5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--light-bg);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+/* Navigation */
+.site-header {
+    width: 100%;
+    background: var(--mint);
+}
+
+.navbar {
+    min-height: 82px;
+    padding: 0 4.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.back-link {
+    color: var(--primary);
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--primary);
+    white-space: nowrap;
+}
+
+.logo-icon {
+    color: var(--secondary);
+    font-size: 38px;
+}
+
+.navbar .logo strong {
+    display: block;
+    font-size: 19px;
+}
+
+.navbar .logo small {
+    display: block;
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 13px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--secondary);
+}
+
+.navbar .nav-button {
+    background: var(--primary);
+    color: var(--white);
+    padding: 13px 22px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Page Heading */
+.medicine-hero {
+    padding: 45px 4.2% 55px;
+    text-align: center;
+}
+
+.eyebrow {
+    display: block;
+    color: var(--secondary);
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.medicine-hero h1 {
+    color: var(--primary);
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.medicine-hero p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Medicine Search Section */
+.medicine-search-section {
+    padding: 0 4.2%;
+    text-align: center;
+}
+
+.medicine-search-section h2 {
+    color: var(--primary);
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.medicine-search-box {
+    width: 100%;
+    min-height: 51px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    background: var(--white);
+    border: 1px solid #dce8e5;
+    border-radius: 11px;
+}
+
+.medicine-search-box span {
+    color: #647b91;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.medicine-search-box input {
+    width:  min(500px, 90%);
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--text);
+    font-size: 13px;
+}
+
+.medicine-search-box input::placeholder {
+    color: var(--muted);
+}
+
+/* Medicine Category Filters */
+.medicine-filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.filter-btn {
+    padding: 11px 17px;
+    border: 1px solid #dce8e5;
+    border-radius: 25px;
+    background: var(--white);
+    color: var(--text);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    border-color: var(--secondary);
+    background: var(--mint);
+    color: var(--primary);
+}
+
+/* Medicine Cards */
+.medicine-list-section {
+    padding: 35px 4.2% 40px;
+}
+
+.medicine-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.medicine-card {
+    padding: 25px;
+    background: var(--white);
+    border: 1px solid #e3efec;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(18, 63, 73, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.medicine-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 9px 22px rgba(18, 63, 73, 0.10);
+}
+
+.medicine-card-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+    border-radius: 12px;
+    background: var(--mint);
+    font-size: 24px;
+}
+
+.medicine-category {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: var(--secondary);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.medicine-card h3 {
+    color: var(--primary);
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.medicine-card p {
+    min-height: 55px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.medicine-details-link {
+    display: inline-block;
+    margin-top: 18px;
+    color: var(--secondary);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.medicine-details-link:hover {
+    color: var(--primary);
+}
+
+/* Medicine Safety Notice */
+.medicine-safety {
+    margin: 0 4.2% 20px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background: var(--mint);
+    border: 1px solid #d4eee8;
+    border-radius: 13px;
+}
+
+.safety-icon {
+    color: var(--secondary);
+    font-size: 25px;
+    flex-shrink: 0;
+}
+
+.medicine-safety h3 {
+    color: var(--primary);
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.medicine-safety p {
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.7;
+}
+
+/* Medicine Disclaimer */
+.medicine-disclaimer {
+    margin: 0 4.2% 40px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--white);
+    border: 1px solid #e3efec;
+    border-radius: 11px;
+}
+
+.medicine-disclaimer > span {
+    color: var(--secondary);
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.medicine-disclaimer p {
+    color: var(--muted);
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+/* Footer */
+.site-footer {
+    background: var(--primary);
+    color: var(--white);
+    padding: 28px 4.2% 20px;
+}
+
+.footer-brand h3 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.footer-brand p {
+    color: var(--secondary);
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #c4d9dc;
+    font-size: 10px;
+    line-height: 1.8;
+}
+
+/* Tablet Responsive */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 15px 4.2%;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+
+    .medicine-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+        order: 3;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .navbar .nav-button {
+        padding: 10px 14px;
+        font-size: 10px;
+    }
+
+    .medicine-hero {
+        padding: 35px 5% 40px;
+    }
+
+    .medicine-hero h1 {
+        font-size: 27px;
+    }
+
+    .medicine-hero p {
+        font-size: 12px;
+    }
+
+    .medicine-search-section {
+        padding: 0 5%;
+    }
+
+    .medicine-filters {
+        gap: 8px;
+    }
+
+    .filter-btn {
+        padding: 9px 13px;
+        font-size: 10px;
+    }
+
+    .medicine-list-section {
+        padding: 28px 5%;
+    }
+
+    .medicine-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .medicine-card p {
+        min-height: auto;
+    }
+
+    .medicine-safety,
+    .medicine-disclaimer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 420px) {
+    .navbar .logo strong {
+        font-size: 15px;
+    }
+
+    .navbar .logo small {
+        font-size: 9px;
+    }
+
+    .back-link,
+    .logo-icon {
+        font-size: 30px;
+    }
+
+    .medicine-hero h1 {
+        font-size: 23px;
+    }
+}

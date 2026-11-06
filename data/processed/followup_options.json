@@ -1,0 +1,2869 @@
+{
+    "E_55": {
+        "question": "Do you feel pain somewhere?",
+        "data_type": "M",
+        "default_value": "V_123",
+        "options": [
+            {
+                "value": "V_123",
+                "label": "nowhere"
+            },
+            {
+                "value": "V_14",
+                "label": "iliac wing(R)"
+            },
+            {
+                "value": "V_15",
+                "label": "iliac wing(L)"
+            },
+            {
+                "value": "V_16",
+                "label": "groin(R)"
+            },
+            {
+                "value": "V_17",
+                "label": "groin(L)"
+            },
+            {
+                "value": "V_18",
+                "label": "axilla(R)"
+            },
+            {
+                "value": "V_19",
+                "label": "axilla(L)"
+            },
+            {
+                "value": "V_20",
+                "label": "tonsil(R)"
+            },
+            {
+                "value": "V_21",
+                "label": "tonsil(L)"
+            },
+            {
+                "value": "V_22",
+                "label": "anus"
+            },
+            {
+                "value": "V_23",
+                "label": "posterior aspect of the ankle(R)"
+            },
+            {
+                "value": "V_24",
+                "label": "posterior aspect of the ankle(L)"
+            },
+            {
+                "value": "V_25",
+                "label": "back of head"
+            },
+            {
+                "value": "V_26",
+                "label": "back of the neck"
+            },
+            {
+                "value": "V_27",
+                "label": "forearm(R)"
+            },
+            {
+                "value": "V_28",
+                "label": "forearm(L)"
+            },
+            {
+                "value": "V_29",
+                "label": "lower chest"
+            },
+            {
+                "value": "V_30",
+                "label": "biceps(R)"
+            },
+            {
+                "value": "V_31",
+                "label": "biceps(L)"
+            },
+            {
+                "value": "V_32",
+                "label": "mouth"
+            },
+            {
+                "value": "V_33",
+                "label": "thyroid cartilage"
+            },
+            {
+                "value": "V_34",
+                "label": "ankle(R)"
+            },
+            {
+                "value": "V_35",
+                "label": "ankle(L)"
+            },
+            {
+                "value": "V_36",
+                "label": "clitoris"
+            },
+            {
+                "value": "V_37",
+                "label": "coccyx"
+            },
+            {
+                "value": "V_38",
+                "label": "cervical spine"
+            },
+            {
+                "value": "V_39",
+                "label": "thoracic spine"
+            },
+            {
+                "value": "V_40",
+                "label": "lumbar spine"
+            },
+            {
+                "value": "V_41",
+                "label": "commissure(R)"
+            },
+            {
+                "value": "V_42",
+                "label": "commissure(L)"
+            },
+            {
+                "value": "V_43",
+                "label": "lateral side of the foot(R)"
+            },
+            {
+                "value": "V_44",
+                "label": "lateral side of the foot(L)"
+            },
+            {
+                "value": "V_45",
+                "label": "elbow(R)"
+            },
+            {
+                "value": "V_46",
+                "label": "elbow(L)"
+            },
+            {
+                "value": "V_47",
+                "label": "popliteal fossa(R)"
+            },
+            {
+                "value": "V_48",
+                "label": "popliteal fossa(L)"
+            },
+            {
+                "value": "V_49",
+                "label": "iliac crest(R)"
+            },
+            {
+                "value": "V_50",
+                "label": "iliac crest(L)"
+            },
+            {
+                "value": "V_51",
+                "label": "thigh(R)"
+            },
+            {
+                "value": "V_52",
+                "label": "thigh(L)"
+            },
+            {
+                "value": "V_53",
+                "label": "side of the neck(R)"
+            },
+            {
+                "value": "V_54",
+                "label": "side of the neck(L)"
+            },
+            {
+                "value": "V_55",
+                "label": "side of the chest(R)"
+            },
+            {
+                "value": "V_56",
+                "label": "side of the chest(L)"
+            },
+            {
+                "value": "V_57",
+                "label": "lower teeth(R)"
+            },
+            {
+                "value": "V_58",
+                "label": "lower teeth(L)"
+            },
+            {
+                "value": "V_59",
+                "label": "upper teeth(R)"
+            },
+            {
+                "value": "V_60",
+                "label": "upper teeth(L)"
+            },
+            {
+                "value": "V_61",
+                "label": "above the tongue"
+            },
+            {
+                "value": "V_62",
+                "label": "top of the head"
+            },
+            {
+                "value": "V_63",
+                "label": "finger (ring finger)(R)"
+            },
+            {
+                "value": "V_64",
+                "label": "finger (ring finger)(L)"
+            },
+            {
+                "value": "V_65",
+                "label": "finger (little finger)(R)"
+            },
+            {
+                "value": "V_66",
+                "label": "finger (little finger)(L)"
+            },
+            {
+                "value": "V_67",
+                "label": "finger (index)(R)"
+            },
+            {
+                "value": "V_68",
+                "label": "finger (index)(L)"
+            },
+            {
+                "value": "V_69",
+                "label": "finger (middle)(R)"
+            },
+            {
+                "value": "V_70",
+                "label": "finger (middle)(L)"
+            },
+            {
+                "value": "V_72",
+                "label": "dorsal aspect of the foot(R)"
+            },
+            {
+                "value": "V_73",
+                "label": "dorsal aspect of the foot(L)"
+            },
+            {
+                "value": "V_74",
+                "label": "dorsal aspect of the wrist(R)"
+            },
+            {
+                "value": "V_75",
+                "label": "dorsal aspect of the wrist(L)"
+            },
+            {
+                "value": "V_76",
+                "label": "dorsal aspect of the hand(R)"
+            },
+            {
+                "value": "V_77",
+                "label": "dorsal aspect of the hand(L)"
+            },
+            {
+                "value": "V_78",
+                "label": "palmar side of the forearm(R)"
+            },
+            {
+                "value": "V_79",
+                "label": "palmar side of the forearm(L)"
+            },
+            {
+                "value": "V_80",
+                "label": "palmar face of the wrist(R)"
+            },
+            {
+                "value": "V_81",
+                "label": "palmar face of the wrist(L)"
+            },
+            {
+                "value": "V_82",
+                "label": "buttock(R)"
+            },
+            {
+                "value": "V_83",
+                "label": "buttock(L)"
+            },
+            {
+                "value": "V_84",
+                "label": "flank(R)"
+            },
+            {
+                "value": "V_85",
+                "label": "flank(L)"
+            },
+            {
+                "value": "V_87",
+                "label": "iliac fossa(R)"
+            },
+            {
+                "value": "V_88",
+                "label": "iliac fossa(L)"
+            },
+            {
+                "value": "V_89",
+                "label": "forehead"
+            },
+            {
+                "value": "V_90",
+                "label": "lower gum"
+            },
+            {
+                "value": "V_91",
+                "label": "upper gum"
+            },
+            {
+                "value": "V_92",
+                "label": "knee(R)"
+            },
+            {
+                "value": "V_93",
+                "label": "knee(L)"
+            },
+            {
+                "value": "V_94",
+                "label": "glans"
+            },
+            {
+                "value": "V_95",
+                "label": "labia majora(R)"
+            },
+            {
+                "value": "V_96",
+                "label": "labia majora(L)"
+            },
+            {
+                "value": "V_97",
+                "label": "big toe(R)"
+            },
+            {
+                "value": "V_98",
+                "label": "big toe(L)"
+            },
+            {
+                "value": "V_99",
+                "label": "hip(R)"
+            },
+            {
+                "value": "V_100",
+                "label": "hip(L)"
+            },
+            {
+                "value": "V_101",
+                "label": "upper chest"
+            },
+            {
+                "value": "V_102",
+                "label": "hymen"
+            },
+            {
+                "value": "V_103",
+                "label": "hypochondrium(R)"
+            },
+            {
+                "value": "V_104",
+                "label": "hypochondrium(L)"
+            },
+            {
+                "value": "V_105",
+                "label": "ischio jambier(R)"
+            },
+            {
+                "value": "V_106",
+                "label": "ischio jambier(L)"
+            },
+            {
+                "value": "V_108",
+                "label": "cheek(R)"
+            },
+            {
+                "value": "V_109",
+                "label": "cheek(L)"
+            },
+            {
+                "value": "V_110",
+                "label": "internal cheek(R)"
+            },
+            {
+                "value": "V_111",
+                "label": "internal cheek(L)"
+            },
+            {
+                "value": "V_113",
+                "label": "renal fossa(R)"
+            },
+            {
+                "value": "V_114",
+                "label": "renal fossa(L)"
+            },
+            {
+                "value": "V_115",
+                "label": "uvula"
+            },
+            {
+                "value": "V_116",
+                "label": "bottom lip(R)"
+            },
+            {
+                "value": "V_117",
+                "label": "upper lip(R)"
+            },
+            {
+                "value": "V_118",
+                "label": "chin"
+            },
+            {
+                "value": "V_119",
+                "label": "calf(R)"
+            },
+            {
+                "value": "V_120",
+                "label": "calf(L)"
+            },
+            {
+                "value": "V_121",
+                "label": "jaw"
+            },
+            {
+                "value": "V_122",
+                "label": "nose"
+            },
+            {
+                "value": "V_124",
+                "label": "occiput"
+            },
+            {
+                "value": "V_125",
+                "label": "eye(R)"
+            },
+            {
+                "value": "V_126",
+                "label": "eye(L)"
+            },
+            {
+                "value": "V_127",
+                "label": "scapula(R)"
+            },
+            {
+                "value": "V_128",
+                "label": "scapula(L)"
+            },
+            {
+                "value": "V_129",
+                "label": "ear(R)"
+            },
+            {
+                "value": "V_130",
+                "label": "ear(L)"
+            },
+            {
+                "value": "V_131",
+                "label": "toe (1)(R)"
+            },
+            {
+                "value": "V_132",
+                "label": "toe (1)(L)"
+            },
+            {
+                "value": "V_133",
+                "label": "toe (2)(R)"
+            },
+            {
+                "value": "V_134",
+                "label": "toe (2)(L)"
+            },
+            {
+                "value": "V_135",
+                "label": "toe (3)(R)"
+            },
+            {
+                "value": "V_136",
+                "label": "toe (3)(L)"
+            },
+            {
+                "value": "V_137",
+                "label": "palace"
+            },
+            {
+                "value": "V_139",
+                "label": "vaginal wall"
+            },
+            {
+                "value": "V_140",
+                "label": "vaginal wall(R)"
+            },
+            {
+                "value": "V_141",
+                "label": "vaginal wall(L)"
+            },
+            {
+                "value": "V_142",
+                "label": "palm(R)"
+            },
+            {
+                "value": "V_143",
+                "label": "palm(L)"
+            },
+            {
+                "value": "V_144",
+                "label": "little toe (4)(R)"
+            },
+            {
+                "value": "V_145",
+                "label": "little toe (4)(L)"
+            },
+            {
+                "value": "V_146",
+                "label": "labia minora(R)"
+            },
+            {
+                "value": "V_147",
+                "label": "labia minora(L)"
+            },
+            {
+                "value": "V_148",
+                "label": "pharynx"
+            },
+            {
+                "value": "V_149",
+                "label": "sole(R)"
+            },
+            {
+                "value": "V_150",
+                "label": "sole(L)"
+            },
+            {
+                "value": "V_151",
+                "label": "thumb(R)"
+            },
+            {
+                "value": "V_152",
+                "label": "thumb(L)"
+            },
+            {
+                "value": "V_153",
+                "label": "pubis"
+            },
+            {
+                "value": "V_155",
+                "label": "penis"
+            },
+            {
+                "value": "V_158",
+                "label": "scrotum"
+            },
+            {
+                "value": "V_159",
+                "label": "breast(R)"
+            },
+            {
+                "value": "V_160",
+                "label": "breast(L)"
+            },
+            {
+                "value": "V_162",
+                "label": "under the tongue"
+            },
+            {
+                "value": "V_163",
+                "label": "under the jaw"
+            },
+            {
+                "value": "V_164",
+                "label": "heel(R)"
+            },
+            {
+                "value": "V_165",
+                "label": "heel(L)"
+            },
+            {
+                "value": "V_166",
+                "label": "temple(R)"
+            },
+            {
+                "value": "V_167",
+                "label": "temple(L)"
+            },
+            {
+                "value": "V_168",
+                "label": "testicle(R)"
+            },
+            {
+                "value": "V_169",
+                "label": "testicle(L)"
+            },
+            {
+                "value": "V_170",
+                "label": "posterior chest wall(R)"
+            },
+            {
+                "value": "V_171",
+                "label": "posterior chest wall(L)"
+            },
+            {
+                "value": "V_172",
+                "label": "tibia(R)"
+            },
+            {
+                "value": "V_173",
+                "label": "tibia(L)"
+            },
+            {
+                "value": "V_174",
+                "label": "trachea"
+            },
+            {
+                "value": "V_175",
+                "label": "trapezius(R)"
+            },
+            {
+                "value": "V_176",
+                "label": "trapezius(L)"
+            },
+            {
+                "value": "V_177",
+                "label": "triceps(R)"
+            },
+            {
+                "value": "V_178",
+                "label": "triceps(L)"
+            },
+            {
+                "value": "V_185",
+                "label": "urethra"
+            },
+            {
+                "value": "V_186",
+                "label": "vagina"
+            },
+            {
+                "value": "V_187",
+                "label": "belly"
+            },
+            {
+                "value": "V_188",
+                "label": "vermilion(R)"
+            },
+            {
+                "value": "V_189",
+                "label": "vermilion(L)"
+            },
+            {
+                "value": "V_190",
+                "label": "vulval vestibule"
+            },
+            {
+                "value": "V_194",
+                "label": "shoulder(R)"
+            },
+            {
+                "value": "V_195",
+                "label": "shoulder(L)"
+            },
+            {
+                "value": "V_197",
+                "label": "epigastric"
+            }
+        ]
+    },
+    "E_56": {
+        "question": "How intense is the pain?",
+        "data_type": "C",
+        "default_value": 0,
+        "options": [
+            {
+                "value": 0,
+                "label": 0
+            },
+            {
+                "value": 1,
+                "label": 1
+            },
+            {
+                "value": 2,
+                "label": 2
+            },
+            {
+                "value": 3,
+                "label": 3
+            },
+            {
+                "value": 4,
+                "label": 4
+            },
+            {
+                "value": 5,
+                "label": 5
+            },
+            {
+                "value": 6,
+                "label": 6
+            },
+            {
+                "value": 7,
+                "label": 7
+            },
+            {
+                "value": 8,
+                "label": 8
+            },
+            {
+                "value": 9,
+                "label": 9
+            },
+            {
+                "value": 10,
+                "label": 10
+            }
+        ]
+    },
+    "E_57": {
+        "question": "Does the pain radiate to another location?",
+        "data_type": "M",
+        "default_value": "V_123",
+        "options": [
+            {
+                "value": "V_123",
+                "label": "nowhere"
+            },
+            {
+                "value": "V_14",
+                "label": "iliac wing(R)"
+            },
+            {
+                "value": "V_15",
+                "label": "iliac wing(L)"
+            },
+            {
+                "value": "V_16",
+                "label": "groin(R)"
+            },
+            {
+                "value": "V_17",
+                "label": "groin(L)"
+            },
+            {
+                "value": "V_18",
+                "label": "axilla(R)"
+            },
+            {
+                "value": "V_19",
+                "label": "axilla(L)"
+            },
+            {
+                "value": "V_20",
+                "label": "tonsil(R)"
+            },
+            {
+                "value": "V_21",
+                "label": "tonsil(L)"
+            },
+            {
+                "value": "V_22",
+                "label": "anus"
+            },
+            {
+                "value": "V_23",
+                "label": "posterior aspect of the ankle(R)"
+            },
+            {
+                "value": "V_24",
+                "label": "posterior aspect of the ankle(L)"
+            },
+            {
+                "value": "V_25",
+                "label": "back of head"
+            },
+            {
+                "value": "V_26",
+                "label": "back of the neck"
+            },
+            {
+                "value": "V_27",
+                "label": "forearm(R)"
+            },
+            {
+                "value": "V_28",
+                "label": "forearm(L)"
+            },
+            {
+                "value": "V_29",
+                "label": "lower chest"
+            },
+            {
+                "value": "V_30",
+                "label": "biceps(R)"
+            },
+            {
+                "value": "V_31",
+                "label": "biceps(L)"
+            },
+            {
+                "value": "V_32",
+                "label": "mouth"
+            },
+            {
+                "value": "V_33",
+                "label": "thyroid cartilage"
+            },
+            {
+                "value": "V_34",
+                "label": "ankle(R)"
+            },
+            {
+                "value": "V_35",
+                "label": "ankle(L)"
+            },
+            {
+                "value": "V_36",
+                "label": "clitoris"
+            },
+            {
+                "value": "V_37",
+                "label": "coccyx"
+            },
+            {
+                "value": "V_38",
+                "label": "cervical spine"
+            },
+            {
+                "value": "V_39",
+                "label": "thoracic spine"
+            },
+            {
+                "value": "V_40",
+                "label": "lumbar spine"
+            },
+            {
+                "value": "V_41",
+                "label": "commissure(R)"
+            },
+            {
+                "value": "V_42",
+                "label": "commissure(L)"
+            },
+            {
+                "value": "V_43",
+                "label": "lateral side of the foot(R)"
+            },
+            {
+                "value": "V_44",
+                "label": "lateral side of the foot(L)"
+            },
+            {
+                "value": "V_45",
+                "label": "elbow(R)"
+            },
+            {
+                "value": "V_46",
+                "label": "elbow(L)"
+            },
+            {
+                "value": "V_47",
+                "label": "popliteal fossa(R)"
+            },
+            {
+                "value": "V_48",
+                "label": "popliteal fossa(L)"
+            },
+            {
+                "value": "V_49",
+                "label": "iliac crest(R)"
+            },
+            {
+                "value": "V_50",
+                "label": "iliac crest(L)"
+            },
+            {
+                "value": "V_51",
+                "label": "thigh(R)"
+            },
+            {
+                "value": "V_52",
+                "label": "thigh(L)"
+            },
+            {
+                "value": "V_53",
+                "label": "side of the neck(R)"
+            },
+            {
+                "value": "V_54",
+                "label": "side of the neck(L)"
+            },
+            {
+                "value": "V_55",
+                "label": "side of the chest(R)"
+            },
+            {
+                "value": "V_56",
+                "label": "side of the chest(L)"
+            },
+            {
+                "value": "V_57",
+                "label": "lower teeth(R)"
+            },
+            {
+                "value": "V_58",
+                "label": "lower teeth(L)"
+            },
+            {
+                "value": "V_59",
+                "label": "upper teeth(R)"
+            },
+            {
+                "value": "V_60",
+                "label": "upper teeth(L)"
+            },
+            {
+                "value": "V_61",
+                "label": "above the tongue"
+            },
+            {
+                "value": "V_62",
+                "label": "top of the head"
+            },
+            {
+                "value": "V_63",
+                "label": "finger (ring finger)(R)"
+            },
+            {
+                "value": "V_64",
+                "label": "finger (ring finger)(L)"
+            },
+            {
+                "value": "V_65",
+                "label": "finger (little finger)(R)"
+            },
+            {
+                "value": "V_66",
+                "label": "finger (little finger)(L)"
+            },
+            {
+                "value": "V_67",
+                "label": "finger (index)(R)"
+            },
+            {
+                "value": "V_68",
+                "label": "finger (index)(L)"
+            },
+            {
+                "value": "V_69",
+                "label": "finger (middle)(R)"
+            },
+            {
+                "value": "V_70",
+                "label": "finger (middle)(L)"
+            },
+            {
+                "value": "V_72",
+                "label": "dorsal aspect of the foot(R)"
+            },
+            {
+                "value": "V_73",
+                "label": "dorsal aspect of the foot(L)"
+            },
+            {
+                "value": "V_74",
+                "label": "dorsal aspect of the wrist(R)"
+            },
+            {
+                "value": "V_75",
+                "label": "dorsal aspect of the wrist(L)"
+            },
+            {
+                "value": "V_76",
+                "label": "dorsal aspect of the hand(R)"
+            },
+            {
+                "value": "V_77",
+                "label": "dorsal aspect of the hand(L)"
+            },
+            {
+                "value": "V_78",
+                "label": "palmar side of the forearm(R)"
+            },
+            {
+                "value": "V_79",
+                "label": "palmar side of the forearm(L)"
+            },
+            {
+                "value": "V_80",
+                "label": "palmar face of the wrist(R)"
+            },
+            {
+                "value": "V_81",
+                "label": "palmar face of the wrist(L)"
+            },
+            {
+                "value": "V_82",
+                "label": "buttock(R)"
+            },
+            {
+                "value": "V_83",
+                "label": "buttock(L)"
+            },
+            {
+                "value": "V_84",
+                "label": "flank(R)"
+            },
+            {
+                "value": "V_85",
+                "label": "flank(L)"
+            },
+            {
+                "value": "V_87",
+                "label": "iliac fossa(R)"
+            },
+            {
+                "value": "V_88",
+                "label": "iliac fossa(L)"
+            },
+            {
+                "value": "V_89",
+                "label": "forehead"
+            },
+            {
+                "value": "V_90",
+                "label": "lower gum"
+            },
+            {
+                "value": "V_91",
+                "label": "upper gum"
+            },
+            {
+                "value": "V_92",
+                "label": "knee(R)"
+            },
+            {
+                "value": "V_93",
+                "label": "knee(L)"
+            },
+            {
+                "value": "V_94",
+                "label": "glans"
+            },
+            {
+                "value": "V_95",
+                "label": "labia majora(R)"
+            },
+            {
+                "value": "V_96",
+                "label": "labia majora(L)"
+            },
+            {
+                "value": "V_97",
+                "label": "big toe(R)"
+            },
+            {
+                "value": "V_98",
+                "label": "big toe(L)"
+            },
+            {
+                "value": "V_99",
+                "label": "hip(R)"
+            },
+            {
+                "value": "V_100",
+                "label": "hip(L)"
+            },
+            {
+                "value": "V_101",
+                "label": "upper chest"
+            },
+            {
+                "value": "V_102",
+                "label": "hymen"
+            },
+            {
+                "value": "V_103",
+                "label": "hypochondrium(R)"
+            },
+            {
+                "value": "V_104",
+                "label": "hypochondrium(L)"
+            },
+            {
+                "value": "V_105",
+                "label": "ischio jambier(R)"
+            },
+            {
+                "value": "V_106",
+                "label": "ischio jambier(L)"
+            },
+            {
+                "value": "V_108",
+                "label": "cheek(R)"
+            },
+            {
+                "value": "V_109",
+                "label": "cheek(L)"
+            },
+            {
+                "value": "V_110",
+                "label": "internal cheek(R)"
+            },
+            {
+                "value": "V_111",
+                "label": "internal cheek(L)"
+            },
+            {
+                "value": "V_113",
+                "label": "renal fossa(R)"
+            },
+            {
+                "value": "V_114",
+                "label": "renal fossa(L)"
+            },
+            {
+                "value": "V_115",
+                "label": "uvula"
+            },
+            {
+                "value": "V_116",
+                "label": "bottom lip(R)"
+            },
+            {
+                "value": "V_117",
+                "label": "upper lip(R)"
+            },
+            {
+                "value": "V_118",
+                "label": "chin"
+            },
+            {
+                "value": "V_119",
+                "label": "calf(R)"
+            },
+            {
+                "value": "V_120",
+                "label": "calf(L)"
+            },
+            {
+                "value": "V_121",
+                "label": "jaw"
+            },
+            {
+                "value": "V_122",
+                "label": "nose"
+            },
+            {
+                "value": "V_124",
+                "label": "occiput"
+            },
+            {
+                "value": "V_125",
+                "label": "eye(R)"
+            },
+            {
+                "value": "V_126",
+                "label": "eye(L)"
+            },
+            {
+                "value": "V_127",
+                "label": "scapula(R)"
+            },
+            {
+                "value": "V_128",
+                "label": "scapula(L)"
+            },
+            {
+                "value": "V_129",
+                "label": "ear(R)"
+            },
+            {
+                "value": "V_130",
+                "label": "ear(L)"
+            },
+            {
+                "value": "V_131",
+                "label": "toe (1)(R)"
+            },
+            {
+                "value": "V_132",
+                "label": "toe (1)(L)"
+            },
+            {
+                "value": "V_133",
+                "label": "toe (2)(R)"
+            },
+            {
+                "value": "V_134",
+                "label": "toe (2)(L)"
+            },
+            {
+                "value": "V_135",
+                "label": "toe (3)(R)"
+            },
+            {
+                "value": "V_136",
+                "label": "toe (3)(L)"
+            },
+            {
+                "value": "V_137",
+                "label": "palace"
+            },
+            {
+                "value": "V_139",
+                "label": "vaginal wall"
+            },
+            {
+                "value": "V_140",
+                "label": "vaginal wall(R)"
+            },
+            {
+                "value": "V_141",
+                "label": "vaginal wall(L)"
+            },
+            {
+                "value": "V_142",
+                "label": "palm(R)"
+            },
+            {
+                "value": "V_143",
+                "label": "palm(L)"
+            },
+            {
+                "value": "V_144",
+                "label": "little toe (4)(R)"
+            },
+            {
+                "value": "V_145",
+                "label": "little toe (4)(L)"
+            },
+            {
+                "value": "V_146",
+                "label": "labia minora(R)"
+            },
+            {
+                "value": "V_147",
+                "label": "labia minora(L)"
+            },
+            {
+                "value": "V_148",
+                "label": "pharynx"
+            },
+            {
+                "value": "V_149",
+                "label": "sole(R)"
+            },
+            {
+                "value": "V_150",
+                "label": "sole(L)"
+            },
+            {
+                "value": "V_151",
+                "label": "thumb(R)"
+            },
+            {
+                "value": "V_152",
+                "label": "thumb(L)"
+            },
+            {
+                "value": "V_153",
+                "label": "pubis"
+            },
+            {
+                "value": "V_155",
+                "label": "penis"
+            },
+            {
+                "value": "V_158",
+                "label": "scrotum"
+            },
+            {
+                "value": "V_159",
+                "label": "breast(R)"
+            },
+            {
+                "value": "V_160",
+                "label": "breast(L)"
+            },
+            {
+                "value": "V_162",
+                "label": "under the tongue"
+            },
+            {
+                "value": "V_163",
+                "label": "under the jaw"
+            },
+            {
+                "value": "V_164",
+                "label": "heel(R)"
+            },
+            {
+                "value": "V_165",
+                "label": "heel(L)"
+            },
+            {
+                "value": "V_166",
+                "label": "temple(R)"
+            },
+            {
+                "value": "V_167",
+                "label": "temple(L)"
+            },
+            {
+                "value": "V_168",
+                "label": "testicle(R)"
+            },
+            {
+                "value": "V_169",
+                "label": "testicle(L)"
+            },
+            {
+                "value": "V_170",
+                "label": "posterior chest wall(R)"
+            },
+            {
+                "value": "V_171",
+                "label": "posterior chest wall(L)"
+            },
+            {
+                "value": "V_172",
+                "label": "tibia(R)"
+            },
+            {
+                "value": "V_173",
+                "label": "tibia(L)"
+            },
+            {
+                "value": "V_174",
+                "label": "trachea"
+            },
+            {
+                "value": "V_175",
+                "label": "trapezius(R)"
+            },
+            {
+                "value": "V_176",
+                "label": "trapezius(L)"
+            },
+            {
+                "value": "V_177",
+                "label": "triceps(R)"
+            },
+            {
+                "value": "V_178",
+                "label": "triceps(L)"
+            },
+            {
+                "value": "V_185",
+                "label": "urethra"
+            },
+            {
+                "value": "V_186",
+                "label": "vagina"
+            },
+            {
+                "value": "V_187",
+                "label": "belly"
+            },
+            {
+                "value": "V_188",
+                "label": "vermilion(R)"
+            },
+            {
+                "value": "V_189",
+                "label": "vermilion(L)"
+            },
+            {
+                "value": "V_190",
+                "label": "vulval vestibule"
+            },
+            {
+                "value": "V_194",
+                "label": "shoulder(R)"
+            },
+            {
+                "value": "V_195",
+                "label": "shoulder(L)"
+            },
+            {
+                "value": "V_197",
+                "label": "epigastric"
+            }
+        ]
+    },
+    "E_130": {
+        "question": "What color is the rash?",
+        "data_type": "C",
+        "default_value": "V_11",
+        "options": [
+            {
+                "value": "V_11",
+                "label": "NA"
+            },
+            {
+                "value": "V_86",
+                "label": "dark"
+            },
+            {
+                "value": "V_107",
+                "label": "yellow"
+            },
+            {
+                "value": "V_138",
+                "label": "pale"
+            },
+            {
+                "value": "V_156",
+                "label": "pink"
+            },
+            {
+                "value": "V_157",
+                "label": "red"
+            }
+        ]
+    },
+    "E_131": {
+    "question": "Do your lesions peel off?",
+    "data_type": "C",
+    "options": [
+        {
+            "value": "V_10",
+            "label": "No"
+        },
+        {
+            "value": "V_12",
+            "label": "Yes"
+        }
+    ]
+},
+
+"E_132": {
+    "question": "Is the rash swollen? (Rate from 0 to 10)",
+    "data_type": "C",
+    "options": [
+        {"value": "0", "label": "0"},
+        {"value": "1", "label": "1"},
+        {"value": "2", "label": "2"},
+        {"value": "3", "label": "3"},
+        {"value": "4", "label": "4"},
+        {"value": "5", "label": "5"},
+        {"value": "6", "label": "6"},
+        {"value": "7", "label": "7"},
+        {"value": "8", "label": "8"},
+        {"value": "9", "label": "9"},
+        {"value": "10", "label": "10"}
+    ]
+},
+
+"E_133": {
+    "question": "Where is the affected region located?",
+    "data_type": "M",
+    "options": [
+       
+            {
+                "value": "V_123",
+                "label": "nowhere"
+            },
+            {
+                "value": "V_14",
+                "label": "iliac wing(R)"
+            },
+            {
+                "value": "V_15",
+                "label": "iliac wing(L)"
+            },
+            {
+                "value": "V_16",
+                "label": "groin(R)"
+            },
+            {
+                "value": "V_17",
+                "label": "groin(L)"
+            },
+            {
+                "value": "V_18",
+                "label": "axilla(R)"
+            },
+            {
+                "value": "V_19",
+                "label": "axilla(L)"
+            },
+            {
+                "value": "V_20",
+                "label": "tonsil(R)"
+            },
+            {
+                "value": "V_21",
+                "label": "tonsil(L)"
+            },
+            {
+                "value": "V_22",
+                "label": "anus"
+            },
+            {
+                "value": "V_23",
+                "label": "posterior aspect of the ankle(R)"
+            },
+            {
+                "value": "V_24",
+                "label": "posterior aspect of the ankle(L)"
+            },
+            {
+                "value": "V_25",
+                "label": "back of head"
+            },
+            {
+                "value": "V_26",
+                "label": "back of the neck"
+            },
+            {
+                "value": "V_27",
+                "label": "forearm(R)"
+            },
+            {
+                "value": "V_28",
+                "label": "forearm(L)"
+            },
+            {
+                "value": "V_29",
+                "label": "lower chest"
+            },
+            {
+                "value": "V_30",
+                "label": "biceps(R)"
+            },
+            {
+                "value": "V_31",
+                "label": "biceps(L)"
+            },
+            {
+                "value": "V_32",
+                "label": "mouth"
+            },
+            {
+                "value": "V_33",
+                "label": "thyroid cartilage"
+            },
+            {
+                "value": "V_34",
+                "label": "ankle(R)"
+            },
+            {
+                "value": "V_35",
+                "label": "ankle(L)"
+            },
+            {
+                "value": "V_36",
+                "label": "clitoris"
+            },
+            {
+                "value": "V_37",
+                "label": "coccyx"
+            },
+            {
+                "value": "V_38",
+                "label": "cervical spine"
+            },
+            {
+                "value": "V_39",
+                "label": "thoracic spine"
+            },
+            {
+                "value": "V_40",
+                "label": "lumbar spine"
+            },
+            {
+                "value": "V_41",
+                "label": "commissure(R)"
+            },
+            {
+                "value": "V_42",
+                "label": "commissure(L)"
+            },
+            {
+                "value": "V_43",
+                "label": "lateral side of the foot(R)"
+            },
+            {
+                "value": "V_44",
+                "label": "lateral side of the foot(L)"
+            },
+            {
+                "value": "V_45",
+                "label": "elbow(R)"
+            },
+            {
+                "value": "V_46",
+                "label": "elbow(L)"
+            },
+            {
+                "value": "V_47",
+                "label": "popliteal fossa(R)"
+            },
+            {
+                "value": "V_48",
+                "label": "popliteal fossa(L)"
+            },
+            {
+                "value": "V_49",
+                "label": "iliac crest(R)"
+            },
+            {
+                "value": "V_50",
+                "label": "iliac crest(L)"
+            },
+            {
+                "value": "V_51",
+                "label": "thigh(R)"
+            },
+            {
+                "value": "V_52",
+                "label": "thigh(L)"
+            },
+            {
+                "value": "V_53",
+                "label": "side of the neck(R)"
+            },
+            {
+                "value": "V_54",
+                "label": "side of the neck(L)"
+            },
+            {
+                "value": "V_55",
+                "label": "side of the chest(R)"
+            },
+            {
+                "value": "V_56",
+                "label": "side of the chest(L)"
+            },
+            {
+                "value": "V_57",
+                "label": "lower teeth(R)"
+            },
+            {
+                "value": "V_58",
+                "label": "lower teeth(L)"
+            },
+            {
+                "value": "V_59",
+                "label": "upper teeth(R)"
+            },
+            {
+                "value": "V_60",
+                "label": "upper teeth(L)"
+            },
+            {
+                "value": "V_61",
+                "label": "above the tongue"
+            },
+            {
+                "value": "V_62",
+                "label": "top of the head"
+            },
+            {
+                "value": "V_63",
+                "label": "finger (ring finger)(R)"
+            },
+            {
+                "value": "V_64",
+                "label": "finger (ring finger)(L)"
+            },
+            {
+                "value": "V_65",
+                "label": "finger (little finger)(R)"
+            },
+            {
+                "value": "V_66",
+                "label": "finger (little finger)(L)"
+            },
+            {
+                "value": "V_67",
+                "label": "finger (index)(R)"
+            },
+            {
+                "value": "V_68",
+                "label": "finger (index)(L)"
+            },
+            {
+                "value": "V_69",
+                "label": "finger (middle)(R)"
+            },
+            {
+                "value": "V_70",
+                "label": "finger (middle)(L)"
+            },
+            {
+                "value": "V_72",
+                "label": "dorsal aspect of the foot(R)"
+            },
+            {
+                "value": "V_73",
+                "label": "dorsal aspect of the foot(L)"
+            },
+            {
+                "value": "V_74",
+                "label": "dorsal aspect of the wrist(R)"
+            },
+            {
+                "value": "V_75",
+                "label": "dorsal aspect of the wrist(L)"
+            },
+            {
+                "value": "V_76",
+                "label": "dorsal aspect of the hand(R)"
+            },
+            {
+                "value": "V_77",
+                "label": "dorsal aspect of the hand(L)"
+            },
+            {
+                "value": "V_78",
+                "label": "palmar side of the forearm(R)"
+            },
+            {
+                "value": "V_79",
+                "label": "palmar side of the forearm(L)"
+            },
+            {
+                "value": "V_80",
+                "label": "palmar face of the wrist(R)"
+            },
+            {
+                "value": "V_81",
+                "label": "palmar face of the wrist(L)"
+            },
+            {
+                "value": "V_82",
+                "label": "buttock(R)"
+            },
+            {
+                "value": "V_83",
+                "label": "buttock(L)"
+            },
+            {
+                "value": "V_84",
+                "label": "flank(R)"
+            },
+            {
+                "value": "V_85",
+                "label": "flank(L)"
+            },
+            {
+                "value": "V_87",
+                "label": "iliac fossa(R)"
+            },
+            {
+                "value": "V_88",
+                "label": "iliac fossa(L)"
+            },
+            {
+                "value": "V_89",
+                "label": "forehead"
+            },
+            {
+                "value": "V_90",
+                "label": "lower gum"
+            },
+            {
+                "value": "V_91",
+                "label": "upper gum"
+            },
+            {
+                "value": "V_92",
+                "label": "knee(R)"
+            },
+            {
+                "value": "V_93",
+                "label": "knee(L)"
+            },
+            {
+                "value": "V_94",
+                "label": "glans"
+            },
+            {
+                "value": "V_95",
+                "label": "labia majora(R)"
+            },
+            {
+                "value": "V_96",
+                "label": "labia majora(L)"
+            },
+            {
+                "value": "V_97",
+                "label": "big toe(R)"
+            },
+            {
+                "value": "V_98",
+                "label": "big toe(L)"
+            },
+            {
+                "value": "V_99",
+                "label": "hip(R)"
+            },
+            {
+                "value": "V_100",
+                "label": "hip(L)"
+            },
+            {
+                "value": "V_101",
+                "label": "upper chest"
+            },
+            {
+                "value": "V_102",
+                "label": "hymen"
+            },
+            {
+                "value": "V_103",
+                "label": "hypochondrium(R)"
+            },
+            {
+                "value": "V_104",
+                "label": "hypochondrium(L)"
+            },
+            {
+                "value": "V_105",
+                "label": "ischio jambier(R)"
+            },
+            {
+                "value": "V_106",
+                "label": "ischio jambier(L)"
+            },
+            {
+                "value": "V_108",
+                "label": "cheek(R)"
+            },
+            {
+                "value": "V_109",
+                "label": "cheek(L)"
+            },
+            {
+                "value": "V_110",
+                "label": "internal cheek(R)"
+            },
+            {
+                "value": "V_111",
+                "label": "internal cheek(L)"
+            },
+            {
+                "value": "V_113",
+                "label": "renal fossa(R)"
+            },
+            {
+                "value": "V_114",
+                "label": "renal fossa(L)"
+            },
+            {
+                "value": "V_115",
+                "label": "uvula"
+            },
+            {
+                "value": "V_116",
+                "label": "bottom lip(R)"
+            },
+            {
+                "value": "V_117",
+                "label": "upper lip(R)"
+            },
+            {
+                "value": "V_118",
+                "label": "chin"
+            },
+            {
+                "value": "V_119",
+                "label": "calf(R)"
+            },
+            {
+                "value": "V_120",
+                "label": "calf(L)"
+            },
+            {
+                "value": "V_121",
+                "label": "jaw"
+            },
+            {
+                "value": "V_122",
+                "label": "nose"
+            },
+            {
+                "value": "V_124",
+                "label": "occiput"
+            },
+            {
+                "value": "V_125",
+                "label": "eye(R)"
+            },
+            {
+                "value": "V_126",
+                "label": "eye(L)"
+            },
+            {
+                "value": "V_127",
+                "label": "scapula(R)"
+            },
+            {
+                "value": "V_128",
+                "label": "scapula(L)"
+            },
+            {
+                "value": "V_129",
+                "label": "ear(R)"
+            },
+            {
+                "value": "V_130",
+                "label": "ear(L)"
+            },
+            {
+                "value": "V_131",
+                "label": "toe (1)(R)"
+            },
+            {
+                "value": "V_132",
+                "label": "toe (1)(L)"
+            },
+            {
+                "value": "V_133",
+                "label": "toe (2)(R)"
+            },
+            {
+                "value": "V_134",
+                "label": "toe (2)(L)"
+            },
+            {
+                "value": "V_135",
+                "label": "toe (3)(R)"
+            },
+            {
+                "value": "V_136",
+                "label": "toe (3)(L)"
+            },
+            {
+                "value": "V_137",
+                "label": "palace"
+            },
+            {
+                "value": "V_139",
+                "label": "vaginal wall"
+            },
+            {
+                "value": "V_140",
+                "label": "vaginal wall(R)"
+            },
+            {
+                "value": "V_141",
+                "label": "vaginal wall(L)"
+            },
+            {
+                "value": "V_142",
+                "label": "palm(R)"
+            },
+            {
+                "value": "V_143",
+                "label": "palm(L)"
+            },
+            {
+                "value": "V_144",
+                "label": "little toe (4)(R)"
+            },
+            {
+                "value": "V_145",
+                "label": "little toe (4)(L)"
+            },
+            {
+                "value": "V_146",
+                "label": "labia minora(R)"
+            },
+            {
+                "value": "V_147",
+                "label": "labia minora(L)"
+            },
+            {
+                "value": "V_148",
+                "label": "pharynx"
+            },
+            {
+                "value": "V_149",
+                "label": "sole(R)"
+            },
+            {
+                "value": "V_150",
+                "label": "sole(L)"
+            },
+            {
+                "value": "V_151",
+                "label": "thumb(R)"
+            },
+            {
+                "value": "V_152",
+                "label": "thumb(L)"
+            },
+            {
+                "value": "V_153",
+                "label": "pubis"
+            },
+            {
+                "value": "V_155",
+                "label": "penis"
+            },
+            {
+                "value": "V_158",
+                "label": "scrotum"
+            },
+            {
+                "value": "V_159",
+                "label": "breast(R)"
+            },
+            {
+                "value": "V_160",
+                "label": "breast(L)"
+            },
+            {
+                "value": "V_162",
+                "label": "under the tongue"
+            },
+            {
+                "value": "V_163",
+                "label": "under the jaw"
+            },
+            {
+                "value": "V_164",
+                "label": "heel(R)"
+            },
+            {
+                "value": "V_165",
+                "label": "heel(L)"
+            },
+            {
+                "value": "V_166",
+                "label": "temple(R)"
+            },
+            {
+                "value": "V_167",
+                "label": "temple(L)"
+            },
+            {
+                "value": "V_168",
+                "label": "testicle(R)"
+            },
+            {
+                "value": "V_169",
+                "label": "testicle(L)"
+            },
+            {
+                "value": "V_170",
+                "label": "posterior chest wall(R)"
+            },
+            {
+                "value": "V_171",
+                "label": "posterior chest wall(L)"
+            },
+            {
+                "value": "V_172",
+                "label": "tibia(R)"
+            },
+            {
+                "value": "V_173",
+                "label": "tibia(L)"
+            },
+            {
+                "value": "V_174",
+                "label": "trachea"
+            },
+            {
+                "value": "V_175",
+                "label": "trapezius(R)"
+            },
+            {
+                "value": "V_176",
+                "label": "trapezius(L)"
+            },
+            {
+                "value": "V_177",
+                "label": "triceps(R)"
+            },
+            {
+                "value": "V_178",
+                "label": "triceps(L)"
+            },
+            {
+                "value": "V_185",
+                "label": "urethra"
+            },
+            {
+                "value": "V_186",
+                "label": "vagina"
+            },
+            {
+                "value": "V_187",
+                "label": "belly"
+            },
+            {
+                "value": "V_188",
+                "label": "vermilion(R)"
+            },
+            {
+                "value": "V_189",
+                "label": "vermilion(L)"
+            },
+            {
+                "value": "V_190",
+                "label": "vulval vestibule"
+            },
+            {
+                "value": "V_194",
+                "label": "shoulder(R)"
+            },
+            {
+                "value": "V_195",
+                "label": "shoulder(L)"
+            },
+            {
+                "value": "V_197",
+                "label": "epigastric"
+            }
+    ]
+},
+
+"E_134": {
+    "question": "How intense is the pain caused by the rash?",
+    "data_type": "C",
+    "options": [
+        {"value": "0", "label": "0"},
+        {"value": "1", "label": "1"},
+        {"value": "2", "label": "2"},
+        {"value": "3", "label": "3"},
+        {"value": "4", "label": "4"},
+        {"value": "5", "label": "5"},
+        {"value": "6", "label": "6"},
+        {"value": "7", "label": "7"},
+        {"value": "8", "label": "8"},
+        {"value": "9", "label": "9"},
+        {"value": "10", "label": "10"}
+    ]
+},
+
+"E_135": {
+    "question": "Are the lesions larger than 1 cm?",
+    "data_type": "C",
+    "options": [
+        {
+            "value": "V_10",
+            "label": "No"
+        },
+        {
+            "value": "V_12",
+            "label": "Yes"
+        }
+    ]
+},
+    "E_136": {
+        "question": "How severe is the itching?",
+        "data_type": "C",
+        "default_value": 0,
+        "options": [
+            {
+                "value": 0,
+                "label": 0
+            },
+            {
+                "value": 1,
+                "label": 1
+            },
+            {
+                "value": 2,
+                "label": 2
+            },
+            {
+                "value": 3,
+                "label": 3
+            },
+            {
+                "value": 4,
+                "label": 4
+            },
+            {
+                "value": 5,
+                "label": 5
+            },
+            {
+                "value": 6,
+                "label": 6
+            },
+            {
+                "value": 7,
+                "label": 7
+            },
+            {
+                "value": 8,
+                "label": 8
+            },
+            {
+                "value": 9,
+                "label": 9
+            },
+            {
+                "value": 10,
+                "label": 10
+            }
+        ]
+    },
+    "E_152": {
+        "question": "Where is the swelling located?",
+        "data_type": "M",
+        "default_value": "V_123",
+        "options": [
+            {
+                "value": "V_123",
+                "label": "nowhere"
+            },
+            {
+                "value": "V_14",
+                "label": "iliac wing(R)"
+            },
+            {
+                "value": "V_15",
+                "label": "iliac wing(L)"
+            },
+            {
+                "value": "V_16",
+                "label": "groin(R)"
+            },
+            {
+                "value": "V_17",
+                "label": "groin(L)"
+            },
+            {
+                "value": "V_18",
+                "label": "axilla(R)"
+            },
+            {
+                "value": "V_19",
+                "label": "axilla(L)"
+            },
+            {
+                "value": "V_20",
+                "label": "tonsil(R)"
+            },
+            {
+                "value": "V_21",
+                "label": "tonsil(L)"
+            },
+            {
+                "value": "V_22",
+                "label": "anus"
+            },
+            {
+                "value": "V_23",
+                "label": "posterior aspect of the ankle(R)"
+            },
+            {
+                "value": "V_24",
+                "label": "posterior aspect of the ankle(L)"
+            },
+            {
+                "value": "V_25",
+                "label": "back of head"
+            },
+            {
+                "value": "V_26",
+                "label": "back of the neck"
+            },
+            {
+                "value": "V_27",
+                "label": "forearm(R)"
+            },
+            {
+                "value": "V_28",
+                "label": "forearm(L)"
+            },
+            {
+                "value": "V_29",
+                "label": "lower chest"
+            },
+            {
+                "value": "V_30",
+                "label": "biceps(R)"
+            },
+            {
+                "value": "V_31",
+                "label": "biceps(L)"
+            },
+            {
+                "value": "V_32",
+                "label": "mouth"
+            },
+            {
+                "value": "V_33",
+                "label": "thyroid cartilage"
+            },
+            {
+                "value": "V_34",
+                "label": "ankle(R)"
+            },
+            {
+                "value": "V_35",
+                "label": "ankle(L)"
+            },
+            {
+                "value": "V_36",
+                "label": "clitoris"
+            },
+            {
+                "value": "V_37",
+                "label": "coccyx"
+            },
+            {
+                "value": "V_38",
+                "label": "cervical spine"
+            },
+            {
+                "value": "V_39",
+                "label": "thoracic spine"
+            },
+            {
+                "value": "V_40",
+                "label": "lumbar spine"
+            },
+            {
+                "value": "V_41",
+                "label": "commissure(R)"
+            },
+            {
+                "value": "V_42",
+                "label": "commissure(L)"
+            },
+            {
+                "value": "V_43",
+                "label": "lateral side of the foot(R)"
+            },
+            {
+                "value": "V_44",
+                "label": "lateral side of the foot(L)"
+            },
+            {
+                "value": "V_45",
+                "label": "elbow(R)"
+            },
+            {
+                "value": "V_46",
+                "label": "elbow(L)"
+            },
+            {
+                "value": "V_47",
+                "label": "popliteal fossa(R)"
+            },
+            {
+                "value": "V_48",
+                "label": "popliteal fossa(L)"
+            },
+            {
+                "value": "V_49",
+                "label": "iliac crest(R)"
+            },
+            {
+                "value": "V_50",
+                "label": "iliac crest(L)"
+            },
+            {
+                "value": "V_51",
+                "label": "thigh(R)"
+            },
+            {
+                "value": "V_52",
+                "label": "thigh(L)"
+            },
+            {
+                "value": "V_53",
+                "label": "side of the neck(R)"
+            },
+            {
+                "value": "V_54",
+                "label": "side of the neck(L)"
+            },
+            {
+                "value": "V_55",
+                "label": "side of the chest(R)"
+            },
+            {
+                "value": "V_56",
+                "label": "side of the chest(L)"
+            },
+            {
+                "value": "V_57",
+                "label": "lower teeth(R)"
+            },
+            {
+                "value": "V_58",
+                "label": "lower teeth(L)"
+            },
+            {
+                "value": "V_59",
+                "label": "upper teeth(R)"
+            },
+            {
+                "value": "V_60",
+                "label": "upper teeth(L)"
+            },
+            {
+                "value": "V_61",
+                "label": "above the tongue"
+            },
+            {
+                "value": "V_62",
+                "label": "top of the head"
+            },
+            {
+                "value": "V_63",
+                "label": "finger (ring finger)(R)"
+            },
+            {
+                "value": "V_64",
+                "label": "finger (ring finger)(L)"
+            },
+            {
+                "value": "V_65",
+                "label": "finger (little finger)(R)"
+            },
+            {
+                "value": "V_66",
+                "label": "finger (little finger)(L)"
+            },
+            {
+                "value": "V_67",
+                "label": "finger (index)(R)"
+            },
+            {
+                "value": "V_68",
+                "label": "finger (index)(L)"
+            },
+            {
+                "value": "V_69",
+                "label": "finger (middle)(R)"
+            },
+            {
+                "value": "V_70",
+                "label": "finger (middle)(L)"
+            },
+            {
+                "value": "V_72",
+                "label": "dorsal aspect of the foot(R)"
+            },
+            {
+                "value": "V_73",
+                "label": "dorsal aspect of the foot(L)"
+            },
+            {
+                "value": "V_74",
+                "label": "dorsal aspect of the wrist(R)"
+            },
+            {
+                "value": "V_75",
+                "label": "dorsal aspect of the wrist(L)"
+            },
+            {
+                "value": "V_76",
+                "label": "dorsal aspect of the hand(R)"
+            },
+            {
+                "value": "V_77",
+                "label": "dorsal aspect of the hand(L)"
+            },
+            {
+                "value": "V_78",
+                "label": "palmar side of the forearm(R)"
+            },
+            {
+                "value": "V_79",
+                "label": "palmar side of the forearm(L)"
+            },
+            {
+                "value": "V_80",
+                "label": "palmar face of the wrist(R)"
+            },
+            {
+                "value": "V_81",
+                "label": "palmar face of the wrist(L)"
+            },
+            {
+                "value": "V_82",
+                "label": "buttock(R)"
+            },
+            {
+                "value": "V_83",
+                "label": "buttock(L)"
+            },
+            {
+                "value": "V_84",
+                "label": "flank(R)"
+            },
+            {
+                "value": "V_85",
+                "label": "flank(L)"
+            },
+            {
+                "value": "V_87",
+                "label": "iliac fossa(R)"
+            },
+            {
+                "value": "V_88",
+                "label": "iliac fossa(L)"
+            },
+            {
+                "value": "V_89",
+                "label": "forehead"
+            },
+            {
+                "value": "V_90",
+                "label": "lower gum"
+            },
+            {
+                "value": "V_91",
+                "label": "upper gum"
+            },
+            {
+                "value": "V_92",
+                "label": "knee(R)"
+            },
+            {
+                "value": "V_93",
+                "label": "knee(L)"
+            },
+            {
+                "value": "V_94",
+                "label": "glans"
+            },
+            {
+                "value": "V_95",
+                "label": "labia majora(R)"
+            },
+            {
+                "value": "V_96",
+                "label": "labia majora(L)"
+            },
+            {
+                "value": "V_97",
+                "label": "big toe(R)"
+            },
+            {
+                "value": "V_98",
+                "label": "big toe(L)"
+            },
+            {
+                "value": "V_99",
+                "label": "hip(R)"
+            },
+            {
+                "value": "V_100",
+                "label": "hip(L)"
+            },
+            {
+                "value": "V_101",
+                "label": "upper chest"
+            },
+            {
+                "value": "V_102",
+                "label": "hymen"
+            },
+            {
+                "value": "V_103",
+                "label": "hypochondrium(R)"
+            },
+            {
+                "value": "V_104",
+                "label": "hypochondrium(L)"
+            },
+            {
+                "value": "V_105",
+                "label": "ischio jambier(R)"
+            },
+            {
+                "value": "V_106",
+                "label": "ischio jambier(L)"
+            },
+            {
+                "value": "V_108",
+                "label": "cheek(R)"
+            },
+            {
+                "value": "V_109",
+                "label": "cheek(L)"
+            },
+            {
+                "value": "V_110",
+                "label": "internal cheek(R)"
+            },
+            {
+                "value": "V_111",
+                "label": "internal cheek(L)"
+            },
+            {
+                "value": "V_113",
+                "label": "renal fossa(R)"
+            },
+            {
+                "value": "V_114",
+                "label": "renal fossa(L)"
+            },
+            {
+                "value": "V_115",
+                "label": "uvula"
+            },
+            {
+                "value": "V_116",
+                "label": "bottom lip(R)"
+            },
+            {
+                "value": "V_117",
+                "label": "upper lip(R)"
+            },
+            {
+                "value": "V_118",
+                "label": "chin"
+            },
+            {
+                "value": "V_119",
+                "label": "calf(R)"
+            },
+            {
+                "value": "V_120",
+                "label": "calf(L)"
+            },
+            {
+                "value": "V_121",
+                "label": "jaw"
+            },
+            {
+                "value": "V_122",
+                "label": "nose"
+            },
+            {
+                "value": "V_124",
+                "label": "occiput"
+            },
+            {
+                "value": "V_125",
+                "label": "eye(R)"
+            },
+            {
+                "value": "V_126",
+                "label": "eye(L)"
+            },
+            {
+                "value": "V_127",
+                "label": "scapula(R)"
+            },
+            {
+                "value": "V_128",
+                "label": "scapula(L)"
+            },
+            {
+                "value": "V_129",
+                "label": "ear(R)"
+            },
+            {
+                "value": "V_130",
+                "label": "ear(L)"
+            },
+            {
+                "value": "V_131",
+                "label": "toe (1)(R)"
+            },
+            {
+                "value": "V_132",
+                "label": "toe (1)(L)"
+            },
+            {
+                "value": "V_133",
+                "label": "toe (2)(R)"
+            },
+            {
+                "value": "V_134",
+                "label": "toe (2)(L)"
+            },
+            {
+                "value": "V_135",
+                "label": "toe (3)(R)"
+            },
+            {
+                "value": "V_136",
+                "label": "toe (3)(L)"
+            },
+            {
+                "value": "V_137",
+                "label": "palace"
+            },
+            {
+                "value": "V_139",
+                "label": "vaginal wall"
+            },
+            {
+                "value": "V_140",
+                "label": "vaginal wall(R)"
+            },
+            {
+                "value": "V_141",
+                "label": "vaginal wall(L)"
+            },
+            {
+                "value": "V_142",
+                "label": "palm(R)"
+            },
+            {
+                "value": "V_143",
+                "label": "palm(L)"
+            },
+            {
+                "value": "V_144",
+                "label": "little toe (4)(R)"
+            },
+            {
+                "value": "V_145",
+                "label": "little toe (4)(L)"
+            },
+            {
+                "value": "V_146",
+                "label": "labia minora(R)"
+            },
+            {
+                "value": "V_147",
+                "label": "labia minora(L)"
+            },
+            {
+                "value": "V_148",
+                "label": "pharynx"
+            },
+            {
+                "value": "V_149",
+                "label": "sole(R)"
+            },
+            {
+                "value": "V_150",
+                "label": "sole(L)"
+            },
+            {
+                "value": "V_151",
+                "label": "thumb(R)"
+            },
+            {
+                "value": "V_152",
+                "label": "thumb(L)"
+            },
+            {
+                "value": "V_153",
+                "label": "pubis"
+            },
+            {
+                "value": "V_155",
+                "label": "penis"
+            },
+            {
+                "value": "V_158",
+                "label": "scrotum"
+            },
+            {
+                "value": "V_159",
+                "label": "breast(R)"
+            },
+            {
+                "value": "V_160",
+                "label": "breast(L)"
+            },
+            {
+                "value": "V_162",
+                "label": "under the tongue"
+            },
+            {
+                "value": "V_163",
+                "label": "under the jaw"
+            },
+            {
+                "value": "V_164",
+                "label": "heel(R)"
+            },
+            {
+                "value": "V_165",
+                "label": "heel(L)"
+            },
+            {
+                "value": "V_166",
+                "label": "temple(R)"
+            },
+            {
+                "value": "V_167",
+                "label": "temple(L)"
+            },
+            {
+                "value": "V_168",
+                "label": "testicle(R)"
+            },
+            {
+                "value": "V_169",
+                "label": "testicle(L)"
+            },
+            {
+                "value": "V_170",
+                "label": "posterior chest wall(R)"
+            },
+            {
+                "value": "V_171",
+                "label": "posterior chest wall(L)"
+            },
+            {
+                "value": "V_172",
+                "label": "tibia(R)"
+            },
+            {
+                "value": "V_173",
+                "label": "tibia(L)"
+            },
+            {
+                "value": "V_174",
+                "label": "trachea"
+            },
+            {
+                "value": "V_175",
+                "label": "trapezius(R)"
+            },
+            {
+                "value": "V_176",
+                "label": "trapezius(L)"
+            },
+            {
+                "value": "V_177",
+                "label": "triceps(R)"
+            },
+            {
+                "value": "V_178",
+                "label": "triceps(L)"
+            },
+            {
+                "value": "V_185",
+                "label": "urethra"
+            },
+            {
+                "value": "V_186",
+                "label": "vagina"
+            },
+            {
+                "value": "V_187",
+                "label": "belly"
+            },
+            {
+                "value": "V_188",
+                "label": "vermilion(R)"
+            },
+            {
+                "value": "V_189",
+                "label": "vermilion(L)"
+            },
+            {
+                "value": "V_190",
+                "label": "vulval vestibule"
+            },
+            {
+                "value": "V_194",
+                "label": "shoulder(R)"
+            },
+            {
+                "value": "V_195",
+                "label": "shoulder(L)"
+            },
+            {
+                "value": "V_197",
+                "label": "epigastric"
+            }
+        ]
+    }
+}
