@@ -8,7 +8,7 @@
 // 1. API configuration and application state
 // --------------------------------------------------
 
-const API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = "https://medisense-ai-backend-ut09.onrender.com";
 
 let availableSymptoms = [];
 let selectedSymptoms = [];
