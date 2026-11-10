@@ -1,0 +1,420 @@
+
+:root {
+    --primary: #123f49;
+    --secondary: #16bba9;
+    --mint: #ddf5f0;
+    --light-bg: #f3f9f7;
+    --white: #ffffff;
+    --text: #244b55;
+    --muted: #8192a5;
+    --border: #dcebe7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--light-bg);
+    color: var(--text);
+    line-height: 1.5;
+}
+
+/* Navigation */
+.site-header {
+    background: var(--mint);
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 70px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.back-link {
+    color: var(--primary);
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.logo-icon {
+    font-size: 30px;
+    color: var(--secondary);
+}
+
+.logo strong {
+    display: block;
+    font-size: 17px;
+}
+
+.logo small {
+    display: block;
+    color: var(--muted);
+    font-size: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 12px;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--secondary);
+}
+
+.nav-button {
+    background: var(--primary);
+    color: var(--white);
+    padding: 11px 19px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+/* Hero */
+.remedies-hero {
+    text-align: center;
+    padding: 48px 20px 35px;
+}
+
+.eyebrow {
+    color: var(--secondary);
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.remedies-hero h1 {
+    color: var(--primary);
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.remedies-hero p {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* Search */
+.remedies-search-section {
+    max-width: 1100px;
+    margin: 25px auto 35px;
+    padding: 0 20px;
+}
+
+.remedies-search-box {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 18px;
+}
+
+.remedies-search-box span {
+    color: var(--muted);
+    font-size: 22px;
+}
+
+.remedies-search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    color: var(--text);
+    background: transparent;
+}
+
+.remedies-search-box input::placeholder {
+    color: var(--muted);
+}
+
+/* Remedy Cards */
+.remedies-list-section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px 25px;
+}
+
+.remedies-list-section h2 {
+    text-align: center;
+    color: var(--primary);
+    font-size: 23px;
+    margin-bottom: 16px;
+}
+
+.remedies-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.remedy-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    min-height: 90px;
+    padding: 9px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    box-shadow: 0 7px 20px rgba(18, 63, 73, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.remedy-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(18, 63, 73, 0.10);
+}
+
+.remedy-image {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.remedy-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.remedy-content {
+    text-align: center;
+    flex: 1;
+}
+
+.remedy-content h3 {
+    color: var(--primary);
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.remedy-content p {
+    color: var(--muted);
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+.remedy-link {
+    display: inline-block;
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.remedy-link:hover {
+    text-decoration: underline;
+}
+
+#no-remedies-message {
+    text-align: center;
+    color: var(--muted);
+    padding: 30px 15px;
+}
+
+/* Safety Reminder */
+.remedies-safety {
+    background: var(--mint);
+    padding: 20px 13%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 0;
+}
+
+.safety-icon {
+    color: var(--secondary);
+    font-size: 25px;
+    flex-shrink: 0;
+}
+
+.remedies-safety h3 {
+    color: var(--primary);
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.remedies-safety p {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+/* Disclaimer */
+.remedies-disclaimer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 17px 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.remedies-disclaimer span {
+    color: var(--secondary);
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.remedies-disclaimer p {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+/* Footer */
+.site-footer {
+    background: var(--primary);
+    color: var(--white);
+    padding: 35px 4% 20px;
+}
+
+.footer-brand h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-brand p {
+    color: var(--secondary);
+    font-size: 10px;
+    margin-left: 35px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin-top: 25px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #c4d9d9;
+    font-size: 10px;
+    margin: 4px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .nav-links {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .nav-button {
+        font-size: 11px;
+    }
+
+    .remedies-hero {
+        padding: 35px 16px 20px;
+    }
+
+    .remedies-hero h1 {
+        font-size: 24px;
+    }
+
+    .remedies-hero p {
+        font-size: 12px;
+    }
+
+    .remedies-search-section {
+        margin: 20px auto 28px;
+    }
+
+    .remedies-list-section h2 {
+        font-size: 20px;
+    }
+
+    .remedy-card {
+        flex-direction: column;
+        gap: 10px;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .remedy-content h3 {
+        font-size: 17px;
+    }
+
+    .remedy-content p {
+        font-size: 12px;
+    }
+
+    .remedies-safety {
+        padding: 18px 20px;
+        gap: 15px;
+    }
+
+    .remedies-safety p,
+    .remedies-disclaimer p {
+        font-size: 11px;
+    }
+}
+.logo-image {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.footer-brand .logo-image {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}

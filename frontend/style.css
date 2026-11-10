@@ -1183,3 +1183,9 @@ nav {
         justify-content: center;
     }
 }
+.logo-image {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}

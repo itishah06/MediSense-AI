@@ -1,0 +1,328 @@
+
+:root {
+    --primary: #123f49;
+    --secondary: #16bba9;
+    --mint: #ddf5f0;
+    --light-bg: #f3f9f7;
+    --white: #ffffff;
+    --text: #244b55;
+    --muted: #8192a5;
+    --border: #dcebe7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--light-bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Navigation */
+.site-header {
+    background: var(--mint);
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 70px;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.back-link {
+    color: var(--primary);
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--primary);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.logo-icon {
+    font-size: 30px;
+    color: var(--secondary);
+}
+
+.logo strong {
+    display: block;
+    font-size: 17px;
+}
+
+.logo small {
+    display: block;
+    color: var(--muted);
+    font-size: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 12px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--secondary);
+}
+
+.nav-button {
+    background: var(--primary);
+    color: var(--white);
+    padding: 11px 19px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+/* Breadcrumb */
+.remedy-breadcrumb {
+    max-width: 1050px;
+    margin: 25px auto 0;
+    padding: 0 20px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.remedy-breadcrumb a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+/* Hero */
+.remedy-detail-hero {
+    text-align: center;
+    padding: 38px 20px 35px;
+}
+
+.eyebrow {
+    color: var(--secondary);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.remedy-detail-hero h1 {
+    color: var(--primary);
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.remedy-detail-hero p {
+    color: var(--muted);
+    font-size: 14px;
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Detail Cards */
+.remedy-detail-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.remedy-detail-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(18, 63, 73, 0.05);
+}
+
+.remedy-detail-card h2 {
+    color: var(--primary);
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.remedy-detail-card p,
+.remedy-detail-card li {
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.remedy-detail-card ul {
+    padding-left: 20px;
+}
+
+.remedy-detail-card li {
+    margin-bottom: 7px;
+}
+
+/* Urgent Warning */
+.urgent-card {
+    border-left: 4px solid #dc7777;
+    background: #fffafa;
+}
+
+.urgent-card h2 {
+    color: #a94444;
+}
+
+/* Source */
+#remedy-source {
+    margin-top: 15px;
+}
+
+#remedy-source a {
+    color: var(--secondary);
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#remedy-source a:hover {
+    text-decoration: underline;
+}
+
+/* Disclaimer */
+.remedy-disclaimer {
+    background: var(--mint);
+    padding: 20px 12%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.remedy-disclaimer span {
+    color: var(--secondary);
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.remedy-disclaimer p {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+/* Back Button */
+.back-to-remedies {
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.back-to-remedies a {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--white);
+    text-decoration: none;
+    padding: 11px 22px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+.back-to-remedies a:hover {
+    background: #195563;
+}
+
+/* Footer */
+.site-footer {
+    background: var(--primary);
+    color: var(--white);
+    padding: 35px 4% 20px;
+}
+
+.footer-brand h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-brand p {
+    color: var(--secondary);
+    font-size: 10px;
+    margin-left: 35px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin-top: 25px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #c4d9d9;
+    font-size: 10px;
+    margin: 4px 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 650px) {
+    .remedy-detail-container {
+        grid-template-columns: 1fr;
+    }
+
+    .remedy-detail-hero h1 {
+        font-size: 25px;
+    }
+
+    .remedy-detail-hero p {
+        font-size: 12px;
+    }
+
+    .remedy-detail-card {
+        padding: 20px;
+    }
+
+    .remedy-disclaimer {
+        padding: 18px 20px;
+        gap: 12px;
+    }
+
+    .remedy-disclaimer p {
+        font-size: 11px;
+    }
+}
+.logo-image {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.footer-logo {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 8px;
+}

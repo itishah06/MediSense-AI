@@ -110,28 +110,63 @@ map.addLayer(markersLayer);
     }
 
     // Convert a city or PIN code into map coordinates.
-    async function getLocationCoordinates(place) {
-        const url =
-            `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(place)}`;
+    
+ // Convert an Indian city or PIN code into map coordinates.
+async function getLocationCoordinates(place) {
+    const isPinCode = /^\d{6}$/.test(place.trim());
 
-        const response = await fetch(url);
+    const params = new URLSearchParams({
+        format: "jsonv2",
+        limit: "5",
+        countrycodes: "in",
+        addressdetails: "1"
+    });
 
-        if (!response.ok) {
-            throw new Error("Unable to find this location.");
-        }
-
-        const results = await response.json();
-
-        if (!results.length) {
-            throw new Error("Location not found. Check the city or PIN code.");
-        }
-
-        return {
-            lat: Number(results[0].lat),
-            lon: Number(results[0].lon),
-            displayName: results[0].display_name
-        };
+    if (isPinCode) {
+        params.set("postalcode", place.trim());
+    } else {
+        params.set("q", `${place.trim()}, India`);
     }
+
+    const url =
+        `https://nominatim.openstreetmap.org/search?${params.toString()}`;
+
+    const response = await fetch(url);
+
+    if (!response.ok) {
+        throw new Error(
+            "Unable to find this location. Please try again."
+        );
+    }
+
+    const results = await response.json();
+
+    if (!results || results.length === 0) {
+        throw new Error(
+            "Location not found in India. Please check the city or PIN code."
+        );
+    }
+
+    // Verify that the returned location belongs to India.
+    const indiaResult = results.find(result =>
+        result.address &&
+        result.address.country_code &&
+        result.address.country_code.toLowerCase() === "in"
+    );
+
+    if (!indiaResult) {
+        throw new Error(
+            "Could not verify this location in India. Please try another PIN code."
+        );
+    }
+
+    return {
+        lat: Number(indiaResult.lat),
+        lon: Number(indiaResult.lon),
+        displayName: indiaResult.display_name
+    };
+}
+
 
     // Search OpenStreetMap for nearby healthcare facilities.
     async function getNearbyFacilities(lat, lon) {

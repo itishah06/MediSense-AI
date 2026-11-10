@@ -30,6 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
             card.style.display =
                 matchesSearch && matchesCategory ? "block" : "none";
         });
+        const visibleCards = Array.from(medicineCards).filter(
+    (card) => card.style.display !== "none"
+);
+
+document.getElementById("no-medicines-message").hidden =
+    visibleCards.length > 0;
     }
 
     // Search medicines

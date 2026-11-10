@@ -468,3 +468,24 @@ input {
         font-size: 23px;
     }
 }
+/* No medicines found message */
+.no-medicines-message {
+    text-align: center;
+    color: var(--muted);
+    font-size: 15px;
+    padding: 30px 15px;
+    grid-column: 1 / -1;
+}
+.logo-image {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.footer-logo {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 8px;
+}

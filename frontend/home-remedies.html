@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Remedies & Wellness | MediSense AI</title>
+    <link rel="stylesheet" href="home-remedies.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="back-link">←</a>
+
+            <a href="index.html" class="logo">
+                <img
+                    src="assets/medisense-logo.svg"
+                    alt="MediSense AI Logo"
+                    class="logo-image"
+                >
+                <span>
+                    <strong>MediSense AI</strong>
+                    <small>Your Smart Health Companion</small>
+                </span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                <li><a href="medicine-guide.html">Medicine Guide</a></li>
+                <li><a href="home-remedies.html" class="active">Home Remedies</a></li>
+                <li><a href="find-doctors.html">Find Doctors</a></li>
+            </ul>
+
+            <a href="symptom-checker.html" class="nav-button">
+                Check Symptoms →
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="remedies-hero">
+            <span class="eyebrow">NATURAL HOME CARE</span>
+
+            <h1>Simple Home Care, Better Everyday Wellness</h1>
+
+            <p>
+                Explore simple home-care practices and wellness tips
+                that may help you feel more comfortable during
+                everyday health concerns.
+            </p>
+        </section>
+
+        <!-- Search Section -->
+        <section class="remedies-search-section">
+            <div class="remedies-search-box">
+                <span>⌕</span>
+                <input
+                    type="text"
+                    id="remedy-search"
+                    placeholder="Search home remedies or health concerns"
+                >
+            </div>
+        </section>
+
+        <!-- Home Care Tips -->
+        <section class="remedies-list-section">
+
+            <h2>Explore Home Care Tips</h2>
+
+            <div class="remedies-container" id="remedies-container">
+
+                <!-- Cold and Cough -->
+                <article class="remedy-card" data-category="cold cough sore throat">
+                    <div class="remedy-image">
+                        <img
+                            src="assets/cold-cough.png"
+                            alt="Warm tea with lemon"
+                        >
+                    </div>
+
+                    <div class="remedy-content">
+                        <h3>1. Cold & Cough Care</h3>
+                        <p>
+                            Simple comfort measures for a sore throat,
+                            cough and common cold symptoms.
+                        </p>
+                        <a href="remedy-details.html?remedy=cold-cough"
+                           class="remedy-link">
+                            Read more →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Digestive Wellness -->
+                <article class="remedy-card" data-category="digestive digestion stomach">
+                    <div class="remedy-image">
+                        <img
+                            src="assets/digestive-wellness.png"
+                            alt="Healthy vegetables and food"
+                        >
+                    </div>
+
+                    <div class="remedy-content">
+                        <h3>2. Digestive Wellness</h3>
+                        <p>
+                            General tips for hydration and gentle
+                            eating when experiencing mild digestive discomfort.
+                        </p>
+                        <a href="remedy-details.html?remedy=digestive"
+                           class="remedy-link">
+                            Read more →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Skin Care -->
+                <article class="remedy-card" data-category="skin skincare hygiene">
+                    <div class="remedy-image">
+                        <img
+                            src="assets/skin-care.png"
+                            alt="Fresh aloe vera plant"
+                        >
+                    </div>
+
+                    <div class="remedy-content">
+                        <h3>3. Basic Skin Care</h3>
+                        <p>
+                            General skin-care practices and everyday
+                            skin hygiene tips.
+                        </p>
+                        <a href="remedy-details.html?remedy=skin-care"
+                           class="remedy-link">
+                            Read more →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Hydration -->
+                <article class="remedy-card" data-category="hydration water fluids">
+                    <div class="remedy-image">
+                        <img
+                            src="assets/hydration.png"
+                            alt="Glass of drinking water"
+                        >
+                    </div>
+
+                    <div class="remedy-content">
+                        <h3>4. Hydration Tips</h3>
+                        <p>
+                            Everyday hydration and healthy fluid habits.
+                        </p>
+                        <a href="remedy-details.html?remedy=hydration"
+                           class="remedy-link">
+                            Read more →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Everyday Wellness -->
+                <article class="remedy-card" data-category="wellness lifestyle exercise">
+                    <div class="remedy-image">
+                        <img
+                            src="assets/everyday-wellness.png"
+                            alt="Outdoor wellness activity"
+                        >
+                    </div>
+
+                    <div class="remedy-content">
+                        <h3>5. Everyday Wellness</h3>
+                        <p>
+                            General habits that support wellbeing.
+                        </p>
+                        <a href="remedy-details.html?remedy=wellness"
+                           class="remedy-link">
+                            Read more →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- No Search Results -->
+            <p id="no-remedies-message" hidden>
+                No matching home-care tips found. Try another search.
+            </p>
+
+        </section>
+
+        <!-- Safety Reminder -->
+        <section class="remedies-safety">
+            <span class="safety-icon">ⓘ</span>
+
+            <div>
+                <h3>A Gentle Reminder</h3>
+                <p>
+                    Home-care practices may provide comfort, but they
+                    are not a substitute for professional medical advice.
+                    Seek medical care for severe, persistent, or worsening
+                    symptoms. Do not delay urgent care to try a home remedy.
+                </p>
+            </div>
+        </section>
+
+        <!-- Disclaimer -->
+        <div class="remedies-disclaimer">
+            <span>ⓘ</span>
+
+            <p>
+                MediSense AI provides general educational wellness
+                information only. Home-care tips are not a diagnosis
+                or treatment plan. Always consult a qualified healthcare
+                professional when needed.
+            </p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-brand">
+            <h3>
+                <img
+                    src="assets/medisense-logo.svg"
+                    alt="MediSense AI Logo"
+                    class="logo-image"
+                >
+                MediSense AI
+            </h3>
+            <p>Your Smart Health Companion</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MediSense AI. All rights reserved.</p>
+            <p>Built with care for a healthier India.</p>
+        </div>
+
+    </footer>
+
+    <script src="home-remedies.js"></script>
+</body>
+</html>
