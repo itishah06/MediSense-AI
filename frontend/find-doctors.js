@@ -185,7 +185,7 @@ async function getLocationCoordinates(place) {
         `;
 
         const response = await fetch(
-            "https://overpass-api.de/api/interpreter",
+           "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
             {
                 method: "POST",
                 headers: {
